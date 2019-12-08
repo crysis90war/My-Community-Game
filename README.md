@@ -8,7 +8,7 @@ Cours : Projet d'analyse et conception
   - Samad HATSIJEV
   - Mathieu ANCIAUX
   - Thomas BAMBERGER
-  - Alexandre Inouir
+  - Alexandre INOUIR
   - Loic DESSALE
   - Robin HOLLANDERS
   - Martial MONKAM
