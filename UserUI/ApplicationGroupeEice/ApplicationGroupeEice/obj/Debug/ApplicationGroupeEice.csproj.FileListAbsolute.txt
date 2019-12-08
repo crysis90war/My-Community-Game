@@ -1,0 +1,266 @@
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe.config
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.pdb
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MainWindow.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\App.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.cache
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.lref
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MainWindow.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.g.resources
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.Properties.Resources.resources
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.GenerateResource.cache
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CoreCompileInputs.cache
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.exe
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.pdb
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Accueil.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Accueil.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Profil.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Profil.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueTrophées.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueTrophées.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ProfilDuJoueur.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ProfilDuJoueur.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueDéfis.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueDéfis.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\DéfisCréés.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\DéfisCréés.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Classement.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MesJeux.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Classement.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MesJeux.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\LesDéfis.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\LesDéfis.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MySql.Data.dll
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CopyComplete
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ConnexionInscription.g.cs
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ConnexionInscription.baml
+C:\Users\HP Pavilion\source\repos\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csprojAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe.config
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.pdb
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csprojAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Accueil.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Classement.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ConnexionInscription.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\DéfisCréés.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueDéfis.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueTrophées.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\LesDéfis.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MainWindow.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MesJeux.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Profil.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ProfilDuJoueur.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\App.g.cs
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.cache
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.lref
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Accueil.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Classement.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ConnexionInscription.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\DéfisCréés.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueDéfis.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\HistoriqueTrophées.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\LesDéfis.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MainWindow.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\MesJeux.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Profil.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ProfilDuJoueur.baml
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.g.resources
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.Properties.Resources.resources
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.GenerateResource.cache
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CoreCompileInputs.cache
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CopyComplete
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.exe
+C:\Users\HP Pavilion\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe.config
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Library.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MySql.Data.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\PDSGBD.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Dapper.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Google.Protobuf.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Renci.SshNet.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Library.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\PDSGBD.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MySql.Data.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Dapper.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.exe.config
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\App.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.cache
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.lref
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.g.resources
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.Properties.Resources.resources
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.GenerateResource.cache
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CopyComplete
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.exe
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\App.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Styles\ScrollViewer.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Styles\Button.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Styles\ListView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_LoginRegisterView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_LoginRegisterView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_MainWindowView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_1_ProfilUtilisateurView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_0_ProfilView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_MainWindowView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_1_ProfilUtilisateurView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_0_ProfilView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_3_HistoriqueDefisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_2_HistoriqueTropheeView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_3_HistoriqueDefisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_2_HistoriqueTropheeView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_0_DefisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_3_GererAchievementView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_2_GererJeuxView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_0_GamesView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_1_MyGamesView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_1_CreerDefisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_2_DefisLesMieuxNotesView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_0_DefisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_3_GererAchievementView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_2_GererJeuxView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_0_GamesView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_1_MyGamesView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_1_CreerDefisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_2_DefisLesMieuxNotesView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_0_EvenementsView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_0_EvenementsView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_1_CreerEvenementView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_1_CreerEvenementView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_0_CommunauteView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_0_CommunauteView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_1_TousLesEvenementsView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_2_EvenementsAmisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_1_TousLesEvenementsView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_2_EvenementsAmisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_3_ClassementView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_1_TousLesDefisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_2_DefisCreesParAmisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_0_ListeDesDefisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_3_EvenementsParMoiView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_3_DefisParMoiView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_3_ClassementView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_1_TousLesDefisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_2_DefisCreesParAmisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_0_ListeDesDefisView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_3_EvenementsParMoiView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_3_DefisParMoiView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_4_HistoriqueEvenementsView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_4_HistoriqueEvenementsView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_0_ListeDesEvenementsView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_0_ListeDesEvenementsView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_0_AccueilView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_1_VideoGameView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_0_AccueilView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_1_VideoGameView.baml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_4_GererDefisView.g.cs
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_4_GererDefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe.config
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.exe
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\ApplicationGroupeEice.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Library.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MySql.Data.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Dapper.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Google.Protobuf.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Renci.SshNet.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Library.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\bin\Debug\MySql.Data.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Styles\Button.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Styles\ListView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Styles\ScrollViewer.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_0_AccueilView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_3_ClassementView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_0_DefisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_3_GererAchievementView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_2_GererJeuxView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_3_HistoriqueDefisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_2_HistoriqueTropheeView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_LoginRegisterView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_MainWindowView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_0_GamesView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_1_MyGamesView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_1_ProfilUtilisateurView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_0_ProfilView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_1_CreerDefisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_2_DefisLesMieuxNotesView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_1_TousLesDefisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_2_DefisCreesParAmisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_0_EvenementsView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_1_CreerEvenementView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_0_CommunauteView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_0_ListeDesEvenementsView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_1_TousLesEvenementsView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_2_EvenementsAmisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_0_ListeDesDefisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_3_EvenementsParMoiView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_3_DefisParMoiView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_4_HistoriqueEvenementsView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_1_VideoGameView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_4_GererDefisView.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\App.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.cache
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice_MarkupCompile.lref
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\App.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_0_AccueilView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_3_ClassementView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_0_DefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_3_GererAchievementView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_2_GererJeuxView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_3_HistoriqueDefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_2_HistoriqueTropheeView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_LoginRegisterView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\0_MainWindowView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_0_GamesView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_1_MyGamesView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_1_ProfilUtilisateurView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_0_ProfilView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_1_CreerDefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\4_2_DefisLesMieuxNotesView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_1_TousLesDefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_2_DefisCreesParAmisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_0_EvenementsView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\5_1_CreerEvenementView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_0_CommunauteView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_0_ListeDesEvenementsView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_1_TousLesEvenementsView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_2_EvenementsAmisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_0_ListeDesDefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_1_3_EvenementsParMoiView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\6_2_3_DefisParMoiView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\2_4_HistoriqueEvenementsView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_1_VideoGameView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\3_4_GererDefisView.baml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.g.resources
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.Properties.Resources.resources
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.GenerateResource.cache
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CopyComplete
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.exe
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.pdb

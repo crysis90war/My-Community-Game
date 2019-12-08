@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FFB6E125-3E38-43A6-809C-11553C9618FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ApplicationGroupeEice</RootNamespace>
+    <AssemblyName>ApplicationGroupeEice</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\Gestion de stock\Gestion de stock\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="PasswordBoxHelper.cs" />
+    <Compile Include="ViewModels\1_0_AccueilViewModel.cs" />
+    <Compile Include="ViewModels\6_3_ClassementViewModel.cs" />
+    <Compile Include="ViewModels\4_0_DefisViewModel.cs" />
+    <Compile Include="ViewModels\3_3_GererAchievementViewModel.cs" />
+    <Compile Include="ViewModels\3_2_GererJeuxViewModel.cs" />
+    <Compile Include="ViewModels\2_3_HistoriqueDefisViewModel.cs" />
+    <Compile Include="ViewModels\2_2_HistoriqueTropheeViewModel.cs" />
+    <Compile Include="ViewModels\0_LoginRegisterViewModel.cs" />
+    <Compile Include="ViewModels\0_MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\3_0_GamesViewModel.cs" />
+    <Compile Include="ViewModels\3_1_MyGamesViewModel.cs" />
+    <Compile Include="ViewModels\2_1_ProfilUtilisateurViewModel.cs" />
+    <Compile Include="ViewModels\2_0_ProfilViewModel.cs" />
+    <Compile Include="ViewModels\4_1_CreerDefisViewModel.cs" />
+    <Compile Include="ViewModels\4_2_DefisLesMieuxNotesViewModel.cs" />
+    <Compile Include="ViewModels\6_2_1_TousLesDefisViewModel.cs" />
+    <Compile Include="ViewModels\6_2_2_DefisCreesParAmisViewModel.cs" />
+    <Compile Include="ViewModels\5_0_EvenementsViewModel.cs" />
+    <Compile Include="ViewModels\5_1_CreerEvenementViewModel.cs" />
+    <Compile Include="ViewModels\6_0_CommunauteViewModel.cs" />
+    <Compile Include="ViewModels\6_1_0_ListeDesEvenementsViewModel.cs" />
+    <Compile Include="ViewModels\6_1_1_TousLesEvenementsViewModel.cs" />
+    <Compile Include="ViewModels\6_1_2_EvenementsAmisViewModel.cs" />
+    <Compile Include="ViewModels\6_2_0_ListeDesDefisViewModel.cs" />
+    <Compile Include="ViewModels\6_1_3_EvenementsParMoiViewModel.cs" />
+    <Compile Include="ViewModels\6_2_3_DefisParMoiViewModel.cs" />
+    <Compile Include="ViewModels\2_4_HistoriqueEvenementsViewModel.cs" />
+    <Compile Include="ViewModels\1_1_VideoGameViewModel.cs" />
+    <Compile Include="ViewModels\3_4_GererDefisViewModel.cs" />
+    <Compile Include="Views\1_0_AccueilView.xaml.cs">
+      <DependentUpon>1_0_AccueilView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_3_ClassementView.xaml.cs">
+      <DependentUpon>6_3_ClassementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\4_0_DefisView.xaml.cs">
+      <DependentUpon>4_0_DefisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3_3_GererAchievementView.xaml.cs">
+      <DependentUpon>3_3_GererAchievementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3_2_GererJeuxView.xaml.cs">
+      <DependentUpon>3_2_GererJeuxView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\2_3_HistoriqueDefisView.xaml.cs">
+      <DependentUpon>2_3_HistoriqueDefisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\2_2_HistoriqueTropheeView.xaml.cs">
+      <DependentUpon>2_2_HistoriqueTropheeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\0_LoginRegisterView.xaml.cs">
+      <DependentUpon>0_LoginRegisterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\0_MainWindowView.xaml.cs">
+      <DependentUpon>0_MainWindowView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3_0_GamesView.xaml.cs">
+      <DependentUpon>3_0_GamesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3_1_MyGamesView.xaml.cs">
+      <DependentUpon>3_1_MyGamesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\2_1_ProfilUtilisateurView.xaml.cs">
+      <DependentUpon>2_1_ProfilUtilisateurView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\2_0_ProfilView.xaml.cs">
+      <DependentUpon>2_0_ProfilView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="Views\4_1_CreerDefisView.xaml.cs">
+      <DependentUpon>4_1_CreerDefisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\4_2_DefisLesMieuxNotesView.xaml.cs">
+      <DependentUpon>4_2_DefisLesMieuxNotesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_2_1_TousLesDefisView.xaml.cs">
+      <DependentUpon>6_2_1_TousLesDefisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_2_2_DefisCreesParAmisView.xaml.cs">
+      <DependentUpon>6_2_2_DefisCreesParAmisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\5_0_EvenementsView.xaml.cs">
+      <DependentUpon>5_0_EvenementsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\5_1_CreerEvenementView.xaml.cs">
+      <DependentUpon>5_1_CreerEvenementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_0_CommunauteView.xaml.cs">
+      <DependentUpon>6_0_CommunauteView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_1_0_ListeDesEvenementsView.xaml.cs">
+      <DependentUpon>6_1_0_ListeDesEvenementsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_1_1_TousLesEvenementsView.xaml.cs">
+      <DependentUpon>6_1_1_TousLesEvenementsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_1_2_EvenementsAmisView.xaml.cs">
+      <DependentUpon>6_1_2_EvenementsAmisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_2_0_ListeDesDefisView.xaml.cs">
+      <DependentUpon>6_2_0_ListeDesDefisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_1_3_EvenementsParMoiView.xaml.cs">
+      <DependentUpon>6_1_3_EvenementsParMoiView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6_2_3_DefisParMoiView.xaml.cs">
+      <DependentUpon>6_2_3_DefisParMoiView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\2_4_HistoriqueEvenementsView.xaml.cs">
+      <DependentUpon>2_4_HistoriqueEvenementsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\1_1_VideoGameView.xaml.cs">
+      <DependentUpon>1_1_VideoGameView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3_4_GererDefisView.xaml.cs">
+      <DependentUpon>3_4_GererDefisView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1_0_AccueilView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_3_ClassementView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\4_0_DefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\3_3_GererAchievementView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\3_2_GererJeuxView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\2_3_HistoriqueDefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\2_2_HistoriqueTropheeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\0_LoginRegisterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\0_MainWindowView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\3_0_GamesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\3_1_MyGamesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\2_1_ProfilUtilisateurView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\2_0_ProfilView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\4_1_CreerDefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\4_2_DefisLesMieuxNotesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_2_1_TousLesDefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_2_2_DefisCreesParAmisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\5_0_EvenementsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\5_1_CreerEvenementView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_0_CommunauteView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_1_0_ListeDesEvenementsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_1_1_TousLesEvenementsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_1_2_EvenementsAmisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_2_0_ListeDesDefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_1_3_EvenementsParMoiView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6_2_3_DefisParMoiView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\2_4_HistoriqueEvenementsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1_1_VideoGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\3_4_GererDefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconAmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\BordBas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\BordHaut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Fond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\ork-art-fentezi-topor-world.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Fortnite_Avengers_Endgame.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\wow-foire-event-730x2001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Xbox-Game-Pass-Quetes-1-1021x580.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconJeu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconJeuDeSociétés.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Rang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LogoDéfis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\SoupyCraftyAsianporcupine-size_restricted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Dark-Souls-warrior-armour-suit-fire.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\iconfinder_advantage_quality_1034364.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Rank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Score.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\crysis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MCG_SizeInfo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Garbage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\DéfiDifficile.jpg" />
+    <Resource Include="Image\Event.jpg" />
+    <Resource Include="Image\Profil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\iconfinder_gamer_titanfall_1536911.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MCG_Library\MCG_Library.csproj">
+      <Project>{d95b1474-c88c-486e-8676-18060297c9ef}</Project>
+      <Name>MCG_Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MCG_Scraper_API\MCG_Scraper_API.csproj">
+      <Project>{b200c73b-6fa1-43d5-850b-2b9823a56e5b}</Project>
+      <Name>MCG_Scraper_API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

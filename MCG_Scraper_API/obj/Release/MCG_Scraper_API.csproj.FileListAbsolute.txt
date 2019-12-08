@@ -1,0 +1,14 @@
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\Newtonsoft.Json.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\Newtonsoft.Json.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.csproj.CopyComplete
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\Newtonsoft.Json.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\bin\Release\Newtonsoft.Json.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.csproj.CopyComplete
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.pdb

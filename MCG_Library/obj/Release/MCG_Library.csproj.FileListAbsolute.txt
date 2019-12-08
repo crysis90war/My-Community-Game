@@ -1,0 +1,30 @@
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\MCG_Library.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\MCG_Library.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\Dapper.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\MySql.Data.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\PDSGBD.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\Google.Protobuf.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\Renci.SshNet.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\PDSGBD.pdb
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\Dapper.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\bin\Release\MySql.Data.xml
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.csproj.CopyComplete
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.dll
+C:\Users\Samad\Desktop\ApplicationGroupeEice\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\MCG_Library.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\MCG_Library.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\Dapper.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\MySql.Data.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\PDSGBD.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\Google.Protobuf.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\Renci.SshNet.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\PDSGBD.pdb
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\Dapper.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\bin\Release\MySql.Data.xml
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.csproj.CopyComplete
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.dll
+C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Library\obj\Release\MCG_Library.pdb

@@ -1,0 +1,138 @@
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.exe.config
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.exe
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.pdb
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\MainWindow.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\App.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.cache
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.lref
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\MainWindow.baml
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.g.resources
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.Properties.Resources.resources
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csproj.GenerateResource.cache
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csproj.CoreCompileInputs.cache
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.exe
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.pdb
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csprojAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Evenement.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Evenement.baml
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Utilisateurs.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Utilisateurs.baml
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxVidéos.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxVidéos.baml
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxDeSociétés.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxDeSociétés.baml
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Connexion.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Connexion.baml
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\ImageAccueil.g.cs
+C:\Users\HP Pavilion\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\ImageAccueil.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.exe.config
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.exe
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.pdb
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Connexion.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Evenement.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\ImageAccueil.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxDeSociétés.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxVidéos.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\MainWindow.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Utilisateurs.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\App.g.cs
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.cache
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.lref
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Connexion.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Evenement.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\ImageAccueil.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxDeSociétés.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxVidéos.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\MainWindow.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Utilisateurs.baml
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.g.resources
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.Properties.Resources.resources
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csproj.GenerateResource.cache
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.exe
+C:\Users\Samad\Desktop\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.pdb
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Connexion.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Evenement.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\ImageAccueil.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxDeSociétés.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxVidéos.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\MainWindow.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Utilisateurs.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\LoginView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\App.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.cache
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.lref
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.exe
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.pdb
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Connexion.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Evenement.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\ImageAccueil.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxDeSociétés.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\JeuxVidéos.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\MainWindow.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Utilisateurs.baml
+C:\Users\Samad\Desktop\My Community Game\AdministrateurApplicationEice\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\LoginView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\App.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.cache
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice_MarkupCompile.lref
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.exe
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.pdb
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.exe.config
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.exe
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\AdministrateurApplicationEice.pdb
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Caliburn.Micro.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Caliburn.Micro.xml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\App.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.g.resources
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.Properties.Resources.resources
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csproj.GenerateResource.cache
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csproj.CopyComplete
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Styles\Button.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\Connexion.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\0_LoginView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\0_MainWindowView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\MainWindow.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\1_UtilisateursView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\MCG_Library.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\MySql.Data.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Dapper.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Google.Protobuf.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\Renci.SshNet.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\MCG_Library.pdb
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\bin\Debug\MySql.Data.xml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\Connexion.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\MainWindow.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\0_LoginView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\0_MainWindowView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\1_UtilisateursView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\ImageAccueil.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\Utilisateurs.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\2_EventView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\3_VideoGameView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\4_BoardGameView.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\ImageAccueil.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\Utilisateurs.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\2_EventView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\3_VideoGameView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\4_BoardGameView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Styles\ListView.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Styles\ScrollViewer.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\Evenement.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\JeuxDeSociétés.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\JeuxVidéos.g.cs
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\Evenement.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\JeuxDeSociétés.baml
+C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Garbage\JeuxVidéos.baml

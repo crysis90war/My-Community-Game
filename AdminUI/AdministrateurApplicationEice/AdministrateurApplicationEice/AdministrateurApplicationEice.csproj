@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{111C18C8-02F6-4F6E-828C-685C86885D73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AdministrateurApplicationEice</RootNamespace>
+    <AssemblyName>AdministrateurApplicationEice</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Garbage\Connexion.xaml.cs">
+      <DependentUpon>Connexion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garbage\ImageAccueil.xaml.cs">
+      <DependentUpon>ImageAccueil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garbage\JeuxDeSociétés.xaml.cs">
+      <DependentUpon>JeuxDeSociétés.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garbage\JeuxVidéos.xaml.cs">
+      <DependentUpon>JeuxVidéos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordBoxHelper.cs" />
+    <Compile Include="Garbage\Utilisateurs.xaml.cs">
+      <DependentUpon>Utilisateurs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\0_LoginViewModel.cs" />
+    <Compile Include="ViewModels\0_MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\1_UtilisateursViewModel.cs" />
+    <Compile Include="ViewModels\2_EventViewModel.cs" />
+    <Compile Include="ViewModels\3_VideoGameViewModel.cs" />
+    <Compile Include="ViewModels\4_BoardGameViewModel.cs" />
+    <Compile Include="Views\0_LoginView.xaml.cs">
+      <DependentUpon>0_LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\0_MainWindowView.xaml.cs">
+      <DependentUpon>0_MainWindowView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\1_UtilisateursView.xaml.cs">
+      <DependentUpon>1_UtilisateursView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\2_EventView.xaml.cs">
+      <DependentUpon>2_EventView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3_VideoGameView.xaml.cs">
+      <DependentUpon>3_VideoGameView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\4_BoardGameView.xaml.cs">
+      <DependentUpon>4_BoardGameView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Garbage\Connexion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garbage\Evenement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garbage\ImageAccueil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garbage\JeuxDeSociétés.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garbage\JeuxVidéos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garbage\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Garbage\Evenement.xaml.cs">
+      <DependentUpon>Evenement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garbage\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garbage\Utilisateurs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ListView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ScrollViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\0_LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\0_MainWindowView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1_UtilisateursView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\2_EventView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\3_VideoGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\4_BoardGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Calendrier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\FondAppliAdmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconJeu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconJeuDeSociétés.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconUtilisateur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconEvents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\FondEcranAdmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\SwAccueil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Fond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\FondAppli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MCG_Library\MCG_Library.csproj">
+      <Project>{d95b1474-c88c-486e-8676-18060297c9ef}</Project>
+      <Name>MCG_Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MCG_Scraper_API\MCG_Scraper_API.csproj">
+      <Project>{b200c73b-6fa1-43d5-850b-2b9823a56e5b}</Project>
+      <Name>MCG_Scraper_API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Administrator.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

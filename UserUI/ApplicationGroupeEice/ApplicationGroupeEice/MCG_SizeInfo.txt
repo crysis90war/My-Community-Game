@@ -1,0 +1,20 @@
+Tailles
+
+- MainWindow : 700x1201 => 55x1201, 625x1201
+	- Accueil : 625x1201 ???
+	- Profil : 625x1201 => 45x1201, 580x1201
+		- MyProfil : 580x1201
+		- Historique Trophées : 580x1201
+		- Historique Défis : 580x1201
+		- Défis crées : 580x1201 => 29x1201, 551x1201
+		- Classement : 580x1201
+	- Games : 625x1201 => 45x1201, 580x1201
+		- MyGames : 580x1201
+		- Ajouter/Supprimer Jeu : 580 x 1201
+		- Gerer trophées : 580 x 1201
+	- Défis : 625x1201
+		- Créer un nouveau défi : 
+		- Voir les défis les mieux notés : 
+		- Voir les défis les plus difficiles : 
+		- Défis crées par les amis : 
+	- Communauté : 

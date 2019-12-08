@@ -1,0 +1,164 @@
+﻿<UserControl x:Class="ApplicationGroupeEice.Views.ClassementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ApplicationGroupeEice.Views"
+             mc:Ignorable="d" FontFamily="Cambria" Foreground="White" 
+             d:DesignHeight="625" d:DesignWidth="1029" Height="625" Width="1029">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ApplicationGroupeEice;component/Styles/ScrollViewer.xaml" />
+                <ResourceDictionary Source="/ApplicationGroupeEice;component/Styles/Button.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <!--#region  GRID 0 -->
+        <DockPanel x:Name="dpClassement" Grid.Row="0" Height="625">
+            <DockPanel DockPanel.Dock="Top">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="Classement joueur" Margin="20" FontSize="25" FontWeight="Bold" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="1" Text="{Binding Path=Warning}" TextWrapping="Wrap" Margin="20" FontSize="25" Foreground="Red" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <StackPanel Grid.Column="2">
+                        <Button  x:Name="boutonAfficherProfil" Click="boutonAfficherProfil_Click" Padding="10" Margin="100 10" Content="Afficher le profil" FontSize="25" Style="{StaticResource boutonsRetour}"/>
+                        <Button x:Name="AddFriend" Content="Envoyer invitation" Style="{StaticResource boutonsRetour}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Grid>
+            </DockPanel>
+
+            <ScrollViewer DockPanel.Dock="Bottom" Margin="20">
+                <ListView x:Name="UserClassement" SelectedItem="{Binding Path=SelectedUser}" BorderThickness="0" Background="Transparent">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <DockPanel Margin="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Margin="5" Grid.Column="1" Orientation="Horizontal">
+                                        <TextBlock Width="50" Text="{Binding Path=UserClassement}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold"/>
+                                        <Image Width="50" Source="{Binding Path=UserStatus.StatusIconUrl}" Height="20" VerticalAlignment="Center"/>
+                                        <Image Width="50" Source="{Binding Path=UserRank.RankIconUrl}" Height="20"/>
+                                        <TextBlock Width="300" Text="{Binding Path=UserPublicName}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold" />
+                                        <TextBlock Width="150" Text="{Binding Path=UserScore}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold" />
+                                        <TextBlock Width="150" Text="{Binding Path=NumberOfTrophies}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DockPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollViewer>
+        </DockPanel>
+        <!--#endregion-->
+
+        <!--#region GRID 1 -->
+        <DockPanel x:Name="dpAfficheProfil" Grid.Row="1" Height="0">
+            <DockPanel DockPanel.Dock="Top">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="Profil" Margin="20" FontSize="25" FontWeight="Bold"/>
+                    <Button Grid.Column="1" x:Name="boutonRetourClassement" Click="boutonRetourClassement_Click" Padding="10" Margin="100 10" Content="Retour" FontSize="25" Style="{StaticResource boutonsRetour}"/>
+                </Grid>
+            </DockPanel>
+            <DockPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Status, rank, pseudo -->
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3">
+
+                        <Image Source="{Binding Path=SelectedUser.UserStatus.StatusIconUrl}" Height="30"/>
+
+                        <Image Source="{Binding Path=SelectedUser.UserRank.RankIconUrl}" Height="50" />
+
+                        <TextBlock Text="{Binding Path=SelectedUser.UserPublicName}" Foreground="White" FontSize="40" FontFamily="cambria" Margin="20 0 0 0" VerticalAlignment="Center"/>
+
+
+                    </StackPanel>
+
+                    <!-- Trophées, nombre de trophées et image qui représente un trophée -->
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3">
+
+                        <Image Source="/ApplicationGroupeEice;component/Image/Score.png" Stretch="Fill"/>
+
+                        <TextBlock Text="Score :" Foreground="LightGray" FontSize="40" FontFamily="Cambria" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Center"/>
+
+                        <TextBlock x:Name="SelectedUser_UserScore" Text="{Binding Path=SelectedUser.UserScore}" Foreground="White" FontSize="40" FontFamily="cambria" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Center"/>
+
+                    </StackPanel>
+
+                    <!-- Trophées, nombre de trophées et image qui représente un trophée -->
+                    <StackPanel Grid.Row="2" Grid.Column="1" Grid.RowSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+
+                        <TextBlock Text="Trophées" Foreground="LightGray" FontSize="20" FontFamily="Cambria" HorizontalAlignment="Center" Margin="10"/>
+
+                        <TextBlock Text="{Binding Path=SelectedUser.NumberOfTrophies}" Foreground="White" FontSize="20" FontFamily="cambria" HorizontalAlignment="Center" Margin="10"/>
+
+                        <Image Width="100" Height="100" Margin="10" Source="/ApplicationGroupeEice;component/Image/iconfinder_advantage_quality_1034364.png" Stretch="Fill"/>
+
+                    </StackPanel>
+
+                    <!-- Rang, nom du rang et image qui représente un rang -->
+                    <StackPanel Grid.Row="2" Grid.Column="2" Grid.RowSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+
+                        <TextBlock Text="Rang" Foreground="LightGray" FontSize="20" FontFamily="Cambria" HorizontalAlignment="Center" Margin="10"/>
+
+                        <TextBlock Text="{Binding Path=SelectedUser.UserRank.RankName}" Foreground="White" FontSize="20" FontFamily="cambria" HorizontalAlignment="Center" Margin="10"/>
+
+                        <Image Width="100" Height="100" Margin="10" Source="/ApplicationGroupeEice;component/Image/Rank.png" Stretch="Fill"/>
+
+                    </StackPanel>
+
+                    <!-- Défis, nombre de défis et image qui représente un défi -->
+                    <StackPanel Grid.Row="2" Grid.Column="3" Grid.RowSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+
+                        <TextBlock Text="Défis réussis" Foreground="LightGray" FontSize="20" FontFamily="Cambria" HorizontalAlignment="Center" Margin="10"/>
+
+                        <TextBlock Text="0" Foreground="White" FontSize="20" FontFamily="cambria" HorizontalAlignment="Center" Margin="10"/>
+
+                        <Image Width="100" Height="100" Margin="10" Source="/ApplicationGroupeEice;component/Image/LogoDéfis.png" Stretch="Fill"/>
+
+                    </StackPanel>
+                </Grid>
+            </DockPanel>
+        </DockPanel>
+        <!--#endregion-->
+    </Grid>
+</UserControl>
