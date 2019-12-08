@@ -1,4 +1,4 @@
-# My-Communty-Game
+# My-Community-Game
 Travail de groupe des étudiants de 3ème année en bachelier informatique de gestion.
 
 Etablissement : Ecole Industrielle et Commerciale - EIC Ecaussinnes
