@@ -81,9 +81,6 @@ namespace AdministrateurApplicationEice.ViewModels
         #region Others
         public async void Search()
         {
-            // TODO - Continuer l'ajout du jeu
-            // TODO - Attention pour la base de donnée
-
             string recherche = SearchBox;
 
             if (recherche != null && recherche.Length > 3)

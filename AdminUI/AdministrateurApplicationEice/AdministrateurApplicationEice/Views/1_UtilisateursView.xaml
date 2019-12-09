@@ -24,7 +24,7 @@
 
                 <TextBlock Grid.Column="0" Text="Classement joueur" Margin="20" FontSize="25" FontWeight="Bold" VerticalAlignment="Center" Foreground="White"/>
                 <TextBlock Grid.Column="1" Text="{Binding Path=Warning}" TextWrapping="Wrap" Margin="20" FontSize="25" Foreground="Red" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <Button Grid.Column="2" x:Name="boutonBannir" Padding="5" Margin="20 5" Content="Bannir utilisateur" FontSize="20"/>
+                <Button Grid.Column="2" x:Name="boutonBannir" Padding="5" Margin="20" Content="Ban/Unban" FontSize="20"/>
             </Grid>
         </DockPanel>
 
@@ -40,12 +40,12 @@
                                 </Grid.ColumnDefinitions>
 
                                 <StackPanel Margin="5" Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Width="50" Text="{Binding Path=UserClassement}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold"/>
                                     <Image Width="50" Source="{Binding Path=UserStatus.StatusIconUrl}" Height="20" VerticalAlignment="Center"/>
                                     <Image Width="50" Source="{Binding Path=UserRank.RankIconUrl}" Height="20"/>
                                     <TextBlock Width="300" Text="{Binding Path=UserPublicName}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold" />
                                     <TextBlock Width="150" Text="{Binding Path=UserScore}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold" />
-                                    <TextBlock Width="150" Text="{Binding Path=NumberOfTrophies}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold"/>
+                                    <TextBlock Width="150" Text="{Binding Path=IsBannedState}" Foreground="White" FontFamily="Cambria" FontSize="20" VerticalAlignment="Center" FontWeight="Bold" />
+
                                 </StackPanel>
                             </Grid>
                         </DockPanel>

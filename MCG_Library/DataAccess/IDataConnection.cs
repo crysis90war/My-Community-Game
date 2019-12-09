@@ -24,7 +24,7 @@ namespace MCG_Library.DataAccess
         void CreerGameGenre(int gameId, int genreId);
 
         void CreerGameDeveloper(int gameId, int developerId);
-
+        List<UserModel> GetUser_All();
         void CreerUtilisateur(UserModel modele);
 
         List<DefiModel> GetDefi_MesDefisApprouves(int userId);
@@ -40,6 +40,10 @@ namespace MCG_Library.DataAccess
         void UpdateUser_Rank(int userId);
 
         void UpdateFriendship_State(int sourceUserId, int targetUserId);
+
+        void UpdateUser_Ban(int userId);
+
+        void UpdateUser_Unban(int userId);
 
         void CreerJeuUtilisateur(UserModel modele, int gameId);
 

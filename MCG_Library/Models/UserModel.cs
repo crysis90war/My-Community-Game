@@ -30,6 +30,15 @@ namespace MCG_Library.Models
         private List<UserModel> _userFriendRequest = new List<UserModel>();
         private List<UserModel> _userFriendReceived = new List<UserModel>();
         private List<GameModel> _userGames = new List<GameModel>();
+
+        private UserModel _selectedUser;
+
+        public UserModel SelectedUser
+        {
+            get { return _selectedUser; }
+            set { _selectedUser = value; }
+        }
+
         #endregion
 
         #region Public Properties
@@ -196,7 +205,20 @@ namespace MCG_Library.Models
         #endregion
 
         #region Others
-        // ...
+        public string IsBannedState
+        {
+            get
+            {
+                if (UserIsBanned == 1)
+                {
+                    return $"Banni";
+                }
+                else
+                {
+                    return $"Active";
+                }
+            }
+        }
         #endregion
     }
 }

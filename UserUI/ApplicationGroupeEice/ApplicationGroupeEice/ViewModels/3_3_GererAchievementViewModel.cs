@@ -89,14 +89,9 @@ namespace ApplicationGroupeEice.ViewModels
             try
             {
                 UserGames = new BindableCollection<GameModel>();
-                // Update Achievement
                 GlobalConfig.Connection.UpdateUserAchievement(UserId, SelectedAchievement.AchievementId);
                 userGames = GlobalConfig.Connection.GetUserGames(UserId);
                 
-
-
-                // Update Score
-
                 int resultat = 0;
 
                 foreach (var game in userGames)
@@ -126,7 +121,6 @@ namespace ApplicationGroupeEice.ViewModels
                     UserGames.Add(uGame);
                 }
 
-                // Update RANKING
                 GlobalConfig.Connection.UpdateUser_Rank(UserId);
 
 

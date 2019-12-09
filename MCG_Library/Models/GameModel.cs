@@ -104,7 +104,7 @@ namespace MCG_Library.Models
             set { _gameAchievement = value; }
         }
 
-        public DefiModel DefiModel
+        public DefiModel GameDefi
         {
             get { return _gameDefi; }
             set { _gameDefi = value; }

@@ -61,7 +61,7 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\bin\Debug\Google.Pro
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\bin\Debug\Renci.SshNet.dll
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\bin\Debug\MySql.Data.xml
-C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.csprojAssemblyReference.cache
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.csproj.CopyComplete
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.dll
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.pdb
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.csprojAssemblyReference.cache

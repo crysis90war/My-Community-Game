@@ -89,7 +89,6 @@ namespace MCG_Library.DataAccess
             }
         }
 
-        // TODO - Continuer l'ajoute de jeu
         public void CreerJeu(GameModel modele)
         {
             List<GenreModel> genres = new List<GenreModel>();
@@ -544,8 +543,6 @@ namespace MCG_Library.DataAccess
                 output.NumberOfTrophies = connection.Query<int>(" spGetNumberAccomplishedAchievement", p, commandType: CommandType.StoredProcedure).FirstOrDefault();
                 //userGameIds = connection.Query<GameModel>("spUserGame_GetAll", p, commandType: CommandType.StoredProcedure).ToList();
 
-
-
                 //foreach (var gameId in userGameIds)
                 //{
                 //    GameModel gameModel = new GameModel();
@@ -801,7 +798,6 @@ namespace MCG_Library.DataAccess
             }
         }
 
-
         public List<Private_MsgModel> GetPrivate_msg_refSender_refReceiver(int userId, int ref_receiver)
         {
             List<Private_MsgModel> output;
@@ -844,5 +840,57 @@ namespace MCG_Library.DataAccess
 
             return output;
         }
+
+        public List<UserModel> GetUser_All()
+        {
+            List<UserModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                output = connection.Query<UserModel>("spGetUser_All").ToList();
+                foreach (var user in output)
+                {
+                    var p = new DynamicParameters();
+                    p.Add("@in_user_id", user.UserId);
+                    user.UserStatus = connection.Query<StatusModel>("spGetUser_Status", p, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    user.UserRank = connection.Query<RankModel>("spGetUser_Rank", p, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    user.UserRole = connection.Query<RoleModel>("spGetUser_Role", p, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                }
+            }
+
+            return output;
+        }
+
+        public void UpdateUser_Ban(int userId)
+        {
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_user", userId);
+
+                connection.Execute("spUpdateUserBan_ById", p, commandType: CommandType.StoredProcedure);
+
+                
+            }
+
+
+        }
+        public void UpdateUser_Unban(int userId)
+        {
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_user", userId);
+
+                connection.Execute("spUpdateUserUnban_ById", p, commandType: CommandType.StoredProcedure);
+
+
+            }
+
+
+        }
+
     }
 }

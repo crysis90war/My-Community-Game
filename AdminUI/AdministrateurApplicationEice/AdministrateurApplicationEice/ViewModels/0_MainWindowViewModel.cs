@@ -55,7 +55,7 @@ namespace AdministrateurApplicationEice.ViewModels
         {
             UserId = userId;
             userData = GlobalConfig.Connection.GetUser_Info(userId);
-            ActivateItem(new UtilisateursViewModel());
+            ActivateItem(new UtilisateursViewModel(UserId));
             NumberOfUsers = GlobalConfig.Connection.GetUser_Count();
             NumberOfUsersOnline = GlobalConfig.Connection.GetUser_OnlineCount();
             NumberOfGames = GlobalConfig.Connection.GetGame_Count();
@@ -65,7 +65,7 @@ namespace AdministrateurApplicationEice.ViewModels
         #region Others
         public void MI_Utilisateurs()
         {
-            ActivateItem(new UtilisateursViewModel());
+            ActivateItem(new UtilisateursViewModel(UserId));
         }
 
         public void MI_Events()
