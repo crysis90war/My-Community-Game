@@ -103,6 +103,7 @@
     <Compile Include="ViewModels\2_4_HistoriqueEvenementsViewModel.cs" />
     <Compile Include="ViewModels\1_1_VideoGameViewModel.cs" />
     <Compile Include="ViewModels\3_4_GererDefisViewModel.cs" />
+    <Compile Include="ViewModels\MessengerViewModel.cs" />
     <Compile Include="Views\1_0_AccueilView.xaml.cs">
       <DependentUpon>1_0_AccueilView.xaml</DependentUpon>
     </Compile>
@@ -195,6 +196,9 @@
     </Compile>
     <Compile Include="Views\3_4_GererDefisView.xaml.cs">
       <DependentUpon>3_4_GererDefisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MessengerView.xaml.cs">
+      <DependentUpon>MessengerView.xaml</DependentUpon>
     </Compile>
     <Page Include="Styles\Button.xaml">
       <SubType>Designer</SubType>
@@ -321,6 +325,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\3_4_GererDefisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MessengerView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

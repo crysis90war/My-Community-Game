@@ -8,15 +8,23 @@ namespace MCG_Library.Models
 {
     public class DefiModel
     {
-		private int _defiId;
+        #region Private Fields
+        private int _defiId;
+		private string _defiName;
+		private string _defiDisplayName;
+		private string _defiDescription;
+		private string _defiCreatedDate;
+		private int _defiCreator;
+		private int _defiIsApproved;
+		private int _defiScore;
+		#endregion
 
+		#region Public Properties
 		public int DefiId
 		{
 			get { return _defiId; }
 			set { _defiId = value; }
 		}
-
-		private string _defiName;
 
 		public string DefiName
 		{
@@ -24,15 +32,11 @@ namespace MCG_Library.Models
 			set { _defiName = value; }
 		}
 
-		private string _defiDisplayName;
-
 		public string DefiDisplayName
 		{
 			get { return _defiDisplayName; }
 			set { _defiDisplayName = value; }
 		}
-
-		private string _defiDescription;
 
 		public string DefiDescription
 		{
@@ -40,15 +44,11 @@ namespace MCG_Library.Models
 			set { _defiDescription = value; }
 		}
 
-		private string _defiCreatedDate;
-
 		public string DefiCreatedDate
 		{
 			get { return _defiCreatedDate; }
 			set { _defiCreatedDate = value; }
 		}
-
-		private int _defiCreator;
 
 		public int DefiCreator
 		{
@@ -56,22 +56,18 @@ namespace MCG_Library.Models
 			set { _defiCreator = value; }
 		}
 
-		private int _defiIsApproved;
-
 		public int DefiIsApproved
 		{
 			get { return _defiIsApproved; }
 			set { _defiIsApproved = value; }
 		}
 
-		private int _defiScore;
-
 		public int DefiScore
 		{
 			get { return _defiScore; }
 			set { _defiScore = value; }
 		}
-
+		#endregion
 
 		public DefiModel()
 		{

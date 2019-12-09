@@ -771,5 +771,38 @@ namespace MCG_Library.DataAccess
 
             return output;
         }
+
+        public void CreerPrivate_Msg(Private_MsgModel model)
+        {
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+
+                p.Add("@in_is_seen", model.Is_seen);
+                p.Add("@in_content", model.Content);
+
+                p.Add("@in_ref_sender", model.Ref_sender);
+                p.Add("@in_ref_receiver", model.Ref_receiver);
+                p.Add("@in_sent_at", model.Sent_at);
+
+                connection.Execute("spPrivate_msg_Insert", p, commandType: CommandType.StoredProcedure);
+            }
+        }
+
+
+        public List<Private_MsgModel> GetPrivate_msg_refSender_refReceiver(int userId, int ref_receiver)
+        {
+            List<Private_MsgModel> output;
+            var p = new DynamicParameters();
+            p.Add("@in_ref_sender", userId);
+            p.Add("@in_ref_receiver", ref_receiver);
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                output = connection.Query<Private_MsgModel>("spGetPrivate_msg_refSender_refReceiver", p, commandType: CommandType.StoredProcedure).ToList();
+            }
+
+            return output;
+        }
     }
 }

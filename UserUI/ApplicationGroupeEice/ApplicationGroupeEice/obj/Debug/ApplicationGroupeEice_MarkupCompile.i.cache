@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\
 ApplicationGroupeEice
 none
 false
 DEBUG;TRACE
-C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\App.xaml
-32-1223986267
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\App.xaml
+33-845393137
 
-66-1499093848
-126957185299
-Styles\Button.xaml;Styles\ListView.xaml;Styles\ScrollViewer.xaml;Views\1_0_AccueilView.xaml;Views\6_3_ClassementView.xaml;Views\4_0_DefisView.xaml;Views\3_3_GererAchievementView.xaml;Views\3_2_GererJeuxView.xaml;Views\2_3_HistoriqueDefisView.xaml;Views\2_2_HistoriqueTropheeView.xaml;Views\0_LoginRegisterView.xaml;Views\0_MainWindowView.xaml;Views\3_0_GamesView.xaml;Views\3_1_MyGamesView.xaml;Views\2_1_ProfilUtilisateurView.xaml;Views\2_0_ProfilView.xaml;Views\4_1_CreerDefisView.xaml;Views\4_2_DefisLesMieuxNotesView.xaml;Views\6_2_1_TousLesDefisView.xaml;Views\6_2_2_DefisCreesParAmisView.xaml;Views\5_0_EvenementsView.xaml;Views\5_1_CreerEvenementView.xaml;Views\6_0_CommunauteView.xaml;Views\6_1_0_ListeDesEvenementsView.xaml;Views\6_1_1_TousLesEvenementsView.xaml;Views\6_1_2_EvenementsAmisView.xaml;Views\6_2_0_ListeDesDefisView.xaml;Views\6_1_3_EvenementsParMoiView.xaml;Views\6_2_3_DefisParMoiView.xaml;Views\2_4_HistoriqueEvenementsView.xaml;Views\1_1_VideoGameView.xaml;Views\3_4_GererDefisView.xaml;
+68-1174057827
+126-252325659
+Styles\Button.xaml;Styles\ListView.xaml;Styles\ScrollViewer.xaml;Views\1_0_AccueilView.xaml;Views\6_3_ClassementView.xaml;Views\4_0_DefisView.xaml;Views\3_3_GererAchievementView.xaml;Views\3_2_GererJeuxView.xaml;Views\2_3_HistoriqueDefisView.xaml;Views\2_2_HistoriqueTropheeView.xaml;Views\0_LoginRegisterView.xaml;Views\0_MainWindowView.xaml;Views\3_0_GamesView.xaml;Views\3_1_MyGamesView.xaml;Views\2_1_ProfilUtilisateurView.xaml;Views\2_0_ProfilView.xaml;Views\4_1_CreerDefisView.xaml;Views\4_2_DefisLesMieuxNotesView.xaml;Views\6_2_1_TousLesDefisView.xaml;Views\6_2_2_DefisCreesParAmisView.xaml;Views\5_0_EvenementsView.xaml;Views\5_1_CreerEvenementView.xaml;Views\6_0_CommunauteView.xaml;Views\6_1_0_ListeDesEvenementsView.xaml;Views\6_1_1_TousLesEvenementsView.xaml;Views\6_1_2_EvenementsAmisView.xaml;Views\6_2_0_ListeDesDefisView.xaml;Views\6_1_3_EvenementsParMoiView.xaml;Views\6_2_3_DefisParMoiView.xaml;Views\2_4_HistoriqueEvenementsView.xaml;Views\1_1_VideoGameView.xaml;Views\3_4_GererDefisView.xaml;Views\MessengerView.xaml;
 
 True
 

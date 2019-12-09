@@ -1,0 +1,59 @@
+﻿<Window x:Class="ApplicationGroupeEice.Views.MessengerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApplicationGroupeEice.Views"
+        mc:Ignorable="d"
+        Title="MessengerView" Height="450" Width="400">
+
+    <Grid Background="Gray">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5">
+            <Button x:Name="bouton_Actualiser" Content="Actualiser" Click="bouton_Actualiser_Click"/>
+        </Grid>
+
+
+
+
+        <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" Grid.RowSpan="4">
+            <ScrollViewer DockPanel.Dock="Bottom" Margin="20">
+                <TextBlock x:Name="textBlockMessagerie" Foreground="White" Text="{Binding Path=Txxxt}"/>
+
+            </ScrollViewer>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="4" Grid.RowSpan="1">
+            <TextBox x:Name="TextBoxEnvois" Text="Envois"/>
+
+
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="5" >
+            <Button x:Name="clean" Content="DEL" Height="75" VerticalAlignment="Center" Click="bouton_Clean_Click"/>
+        </Grid>
+        <Grid Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="1" >
+            <Button x:Name="bouton_Envois" Content="Envoyer"  Click="bouton_Envois_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

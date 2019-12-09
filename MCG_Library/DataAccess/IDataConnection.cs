@@ -81,5 +81,8 @@ namespace MCG_Library.DataAccess
 
         List<DeveloperModel> GetDeveloper_All();
 
+        void CreerPrivate_Msg(Private_MsgModel model);
+
+        List<Private_MsgModel> GetPrivate_msg_refSender_refReceiver(int userId, int ref_receiver);
     }
 }

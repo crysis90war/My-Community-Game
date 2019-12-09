@@ -20,7 +20,7 @@ namespace AdministrateurApplicationEice.ViewModels
         private GameModel _selectedSteamGame;
         private BindableCollection<GameModel> _communityGames = new BindableCollection<GameModel>();
         private GameModel _selectedCommunityGame;
-        private string _warningMessage;
+        private string _warningMessage = "";
         #endregion
 
         #region Public Properties

@@ -358,3 +358,5 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\App
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.csproj.CopyComplete
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.exe
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.pdb
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\MessengerView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\MessengerView.baml

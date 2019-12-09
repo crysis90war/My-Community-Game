@@ -57,6 +57,7 @@
     <Compile Include="Models\DeveloperModel.cs" />
     <Compile Include="Models\GameModel.cs" />
     <Compile Include="Models\GenreModel.cs" />
+    <Compile Include="Models\Private_MsgModel.cs" />
     <Compile Include="Models\RankModel.cs" />
     <Compile Include="Models\RoleModel.cs" />
     <Compile Include="Models\ScoreModel.cs" />

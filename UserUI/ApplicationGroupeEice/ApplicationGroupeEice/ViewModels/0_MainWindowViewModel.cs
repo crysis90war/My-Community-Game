@@ -185,7 +185,11 @@ namespace ApplicationGroupeEice.ViewModels
 
         public void boutonEnvoyerMessage()
         {
+            //ActivateItem(new MessengerViewModel( UserId, SelectedFriend.UserId));
+            manager.ShowWindow(new MessengerViewModel(UserId, SelectedFriend.UserId));
 
+            // this.TryClose();
+            //pas de tryclose ici car on veut que les messagerie restent ouverte en meme temps (popup)
         }
 
         public void boutonSupprimerAmi()
