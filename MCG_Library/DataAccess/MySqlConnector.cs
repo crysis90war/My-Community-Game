@@ -863,34 +863,50 @@ namespace MCG_Library.DataAccess
 
         public void UpdateUser_Ban(int userId)
         {
-
             using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
             {
                 var p = new DynamicParameters();
                 p.Add("@in_ref_user", userId);
 
                 connection.Execute("spUpdateUserBan_ById", p, commandType: CommandType.StoredProcedure);
-
-                
             }
-
-
         }
         public void UpdateUser_Unban(int userId)
         {
-
             using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
             {
                 var p = new DynamicParameters();
                 p.Add("@in_ref_user", userId);
 
                 connection.Execute("spUpdateUserUnban_ById", p, commandType: CommandType.StoredProcedure);
-
-
             }
-
-
         }
 
+        public List<GameModel> GetUserBoardGames(int userId)
+        {
+            List<GameModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_user", userId);
+
+                output = connection.Query<GameModel>("spGetUserBoardgame_ById", p, commandType: CommandType.StoredProcedure).ToList();
+            }
+
+            return output;
+        }
+
+        public List<GameModel> GetBoardGame_UserNotPossessed(int userId)
+        {
+            List<GameModel> output;
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_user", userId);
+                output = connection.Query<GameModel>("spGetBoardGame_UserNotPossessed", p, commandType: CommandType.StoredProcedure).ToList();
+            }
+            return output;
+        }
     }
 }

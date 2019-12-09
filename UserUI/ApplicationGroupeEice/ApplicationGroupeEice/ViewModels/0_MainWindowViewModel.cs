@@ -101,7 +101,7 @@ namespace ApplicationGroupeEice.ViewModels
 
             UserId = userId;
             userData = GlobalConfig.Connection.GetUser_Info(userId);
-            ActivateItem(new AccueilViewModel());
+            ActivateItem(new AccueilViewModel(userId));
 
             myFriends = userData.UserFriends; //GlobalConfig.Connection.GetUserFriendship_Confirmed(UserId);
             invitationFromMe = userData.UserFriendRequest;
@@ -127,7 +127,7 @@ namespace ApplicationGroupeEice.ViewModels
         {
             userData = GlobalConfig.Connection.GetUser_Info(UserId);
             DeactivateItem(ActiveItem, true);
-            ActivateItem(new AccueilViewModel());
+            ActivateItem(new AccueilViewModel(UserId));
         }
 
         public void MI_Profil()

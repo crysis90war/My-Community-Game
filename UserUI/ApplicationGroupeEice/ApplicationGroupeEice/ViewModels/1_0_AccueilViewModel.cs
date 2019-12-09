@@ -9,8 +9,17 @@ namespace ApplicationGroupeEice.ViewModels
 {
     public class AccueilViewModel : Conductor<object>
     {
-        public AccueilViewModel()
+        private int _userId;
+
+        public int UserId
         {
+            get { return _userId; }
+            set { _userId = value; NotifyOfPropertyChange(() => UserId); }
+        }
+
+        public AccueilViewModel(int userId)
+        {
+            UserId = userId;
             ActivateItem(new VideoGameViewModel());
         }
 
@@ -21,7 +30,7 @@ namespace ApplicationGroupeEice.ViewModels
 
         public void boutonBoardGame()
         {
-
+            ActivateItem(new BoardGameViewModel(UserId));
         }
     }
 }

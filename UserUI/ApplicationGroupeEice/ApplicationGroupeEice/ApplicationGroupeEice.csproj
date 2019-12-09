@@ -103,7 +103,11 @@
     <Compile Include="ViewModels\2_4_HistoriqueEvenementsViewModel.cs" />
     <Compile Include="ViewModels\1_1_VideoGameViewModel.cs" />
     <Compile Include="ViewModels\3_4_GererDefisViewModel.cs" />
+    <Compile Include="ViewModels\1_2_0_BoardGameViewModel.cs" />
+    <Compile Include="ViewModels\1_2_2_GererBoardGameViewModel.cs" />
+    <Compile Include="ViewModels\1_2_3_GererDefisBoardGameViewModel.cs" />
     <Compile Include="ViewModels\MessengerViewModel.cs" />
+    <Compile Include="ViewModels\1_2_1_MyBoardGamesViewModel.cs" />
     <Compile Include="Views\1_0_AccueilView.xaml.cs">
       <DependentUpon>1_0_AccueilView.xaml</DependentUpon>
     </Compile>
@@ -197,8 +201,20 @@
     <Compile Include="Views\3_4_GererDefisView.xaml.cs">
       <DependentUpon>3_4_GererDefisView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\1_2_0_BoardGameView.xaml.cs">
+      <DependentUpon>1_2_0_BoardGameView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\1_2_2_GererBoardGameView.xaml.cs">
+      <DependentUpon>1_2_2_GererBoardGameView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\1_2_3_GererDefisBoardGameView.xaml.cs">
+      <DependentUpon>1_2_3_GererDefisBoardGameView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MessengerView.xaml.cs">
       <DependentUpon>MessengerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\1_2_1_MyBoardGamesView.xaml.cs">
+      <DependentUpon>1_2_1_MyBoardGamesView.xaml</DependentUpon>
     </Compile>
     <Page Include="Styles\Button.xaml">
       <SubType>Designer</SubType>
@@ -328,7 +344,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\1_2_0_BoardGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1_2_2_GererBoardGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1_2_3_GererDefisBoardGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MessengerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1_2_1_MyBoardGamesView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

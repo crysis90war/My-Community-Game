@@ -162,9 +162,25 @@ namespace MCG_Library.Models
             }
         }
 
+        public string DefisCount
+        {
+            get
+            {
+                return $"{ GameDefis.Count } Défis";
+            }
+        }
+
         public string NumberAchievementsAchieved
         {
 
+            get
+            {
+                return $"{ GameAchievements.Where(x => x.AchievementAchieved == 1).Count() } Achieved";
+            }
+        }
+
+        public string NumberDefisAchieved
+        {
             get
             {
                 return $"{ GameAchievements.Where(x => x.AchievementAchieved == 1).Count() } Achieved";

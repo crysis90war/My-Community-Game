@@ -92,5 +92,9 @@ namespace MCG_Library.DataAccess
         void CreerPrivate_Msg(Private_MsgModel model);
 
         List<Private_MsgModel> GetPrivate_msg_refSender_refReceiver(int userId, int ref_receiver);
+
+        List<GameModel> GetUserBoardGames(int userId);
+
+        List<GameModel> GetBoardGame_UserNotPossessed(int userId);
     }
 }

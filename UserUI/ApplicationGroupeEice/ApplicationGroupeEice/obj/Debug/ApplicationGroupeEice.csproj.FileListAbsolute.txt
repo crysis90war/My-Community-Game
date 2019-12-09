@@ -360,3 +360,11 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\App
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\ApplicationGroupeEice.pdb
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\MessengerView.g.cs
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\MessengerView.baml
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_0_BoardGameView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_2_GererBoardGameView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_3_GererDefisBoardGameView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_1_MyBoardGamesView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_0_BoardGameView.baml
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_2_GererBoardGameView.baml
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_3_GererDefisBoardGameView.baml
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\UserUI\ApplicationGroupeEice\ApplicationGroupeEice\obj\Debug\Views\1_2_1_MyBoardGamesView.baml
