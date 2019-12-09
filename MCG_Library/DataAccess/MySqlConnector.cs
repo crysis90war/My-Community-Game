@@ -12,6 +12,22 @@ namespace MCG_Library.DataAccess
 {
     public class MySqlConnector : IDataConnection
     {
+        public void CreerDefi(DefiModel modele, int userId, int gameId)
+        {
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_user", userId);
+                p.Add("@in_ref_game", gameId);
+                p.Add("@in_defi_name", modele.DefiName.ToUpper());
+                p.Add("@in_defi_displayName", modele.DefiDisplayName);
+                p.Add("@in_defi_description", modele.DefiDescription);
+                p.Add("@in_defi_score", modele.DefiScore);
+
+                connection.Execute("spDefi_insert", p, commandType: CommandType.StoredProcedure);
+            }
+        }
+
         public void CreerAchievement(AchievementModel modele, int gameId)
         {
             using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))

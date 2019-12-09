@@ -11,6 +11,8 @@ namespace MCG_Library.DataAccess
     {
         void CreerJeu(GameModel modele);
 
+        void CreerDefi(DefiModel modele, int userId, int gameId);
+
         void CreerInvitationAmi(int sourceUserId, int targetUserId);
 
         void CreerAchievement(AchievementModel modele, int gameId);

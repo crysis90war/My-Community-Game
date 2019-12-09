@@ -9,24 +9,31 @@ namespace ApplicationGroupeEice.ViewModels
 {
     public class DefisViewModel : Conductor<object>
     {
-        CreerDefisViewModel creerDefis = new CreerDefisViewModel();
-        DefisLesMieuxNotesViewModel defisLesMieuxNotes = new DefisLesMieuxNotesViewModel();
-        TousLesDefisViewModel tousLesDefis = new TousLesDefisViewModel();
-        DefisCreesParAmisViewModel defisCreesParAmis = new DefisCreesParAmisViewModel();
+        #region Private Fields
+        private int _userId;
+        #endregion
 
-        public DefisViewModel()
+        #region Public Properties
+        public int UserId
         {
-            ActivateItem(creerDefis);
+            get { return _userId; }
+            set { _userId = value; NotifyOfPropertyChange(() => UserId); }
         }
+        #endregion
 
+        #region Constructor
+        public DefisViewModel(int userId)
+        {
+            UserId = userId;
+            ActivateItem(new CreerDefisViewModel(userId));
+        }
+        #endregion
+
+        #region Others
         public void MI_CreerNouveauDefi()
         {
-            ActivateItem(creerDefis);
+            ActivateItem(new CreerDefisViewModel(UserId));
         }
-
-        public void MI_VoirDefisMieuxNotes()
-        {
-            ActivateItem(defisLesMieuxNotes);
-        }
+        #endregion
     }
 }

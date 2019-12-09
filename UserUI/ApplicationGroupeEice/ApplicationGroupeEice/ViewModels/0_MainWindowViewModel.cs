@@ -147,7 +147,7 @@ namespace ApplicationGroupeEice.ViewModels
         public void MI_Defis()
         {
             DeactivateItem(ActiveItem, true);
-            ActivateItem(new DefisViewModel());
+            ActivateItem(new DefisViewModel(UserId));
         }
 
         public void MI_Evenements()

@@ -42,7 +42,6 @@
                 </Menu.Resources>
 
                 <MenuItem x:Name="MI_CreerNouveauDefi" Header="_Créer un nouveau défi" Padding="20 10" Margin="20 0 0 0" Style="{StaticResource MenuItemStyle}"/>
-                <MenuItem Name="MI_VoirDefisMieuxNotes" Header="_Voir les défis les mieux notés" Padding="20 10" Style="{StaticResource MenuItemStyle}"/>
             </Menu>
 
             <ContentControl Name="ActiveItem" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>

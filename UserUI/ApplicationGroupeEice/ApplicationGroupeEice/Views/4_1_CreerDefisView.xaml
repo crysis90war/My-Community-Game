@@ -4,86 +4,69 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ApplicationGroupeEice.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="580" d:DesignWidth="1201" Height="580" Width="1201">
+             mc:Ignorable="d" Foreground="White" FontSize="20" FontFamily="Cambria" FontWeight="Bold"
+             d:DesignHeight="582" d:DesignWidth="1201" Height="582" Width="1201">
     
-    <Grid Height="550" Width="1201">
-        <!--#region Label Nom Evenement-->
-        <Label Content="Nom du défi" 
-               Foreground="White" 
-               FontSize="20" 
-               FontFamily="Cambria" 
-               FontWeight="Bold" 
-               Margin="30 50 0 0"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <!--#region Choix nom evenement-->
-        <TextBox x:Name="NomDefi"
-                 Width="400" 
-                 Height="35" 
-                 Background="Transparent"
-                 Foreground="White"
-                 FontSize="20"
-                 FontFamily="cambria"
-                 Margin="30 90 0 0" 
-                 VerticalAlignment="Top" 
-                 HorizontalAlignment="Left" />
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="20 10">
+            <TextBlock Text="Choix du jeu pour le défi"/>
+            <ComboBox x:Name="UserGames" Margin="0 10 0 0" SelectedItem="{Binding Path=SelectedGame, Mode=TwoWay}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding GameName}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>
 
-        <Label Content="Choix du jeu pour le défi" 
-               Foreground="White" 
-               FontSize="20" 
-               FontFamily="Cambria" 
-               FontWeight="Bold" 
-               HorizontalAlignment="Right"
-               Margin="0 50 350 0"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="20 10">
+            <TextBlock Text="Score du défi"/>
+            <ComboBox Name="ChallengeScore" Margin="0 10 0 0" SelectedItem="{Binding Path=SelectedChallengeScore, Mode=TwoWay}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ScoreToString}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>
 
-        <!--#region Choix du jeu-->
-        <ComboBox Name="ListeJeu" 
-                  ItemsSource="{Binding Jeu}" 
-                  Background="Transparent"
-                  Width="400" 
-                  Height="35" 
-                  FontSize="20"
-                  FontFamily="Cambria"
-                  HorizontalAlignment="Right"
-                  VerticalAlignment="Top"
-                  Margin="0 90 175 0" />
+        <StackPanel Grid.Row="2" Grid.Column="0" Margin="20 10">
+            <TextBlock Text="Nom du défi"/>
+            <TextBox x:Name="ChallengeName" Background="Transparent" Margin="0 10 0 0"/>
+        </StackPanel>
 
-        <!--#region Label description-->
-        <Label Content="Objectif à réaliser (Explication détaillée)" 
-               Foreground="White" 
-               FontSize="20" 
-               FontFamily="Cambria" 
-               FontWeight="Bold" 
-               VerticalAlignment="top"
-               HorizontalAlignment="Center"
-               Margin="0 200 0 0"/>
+        <StackPanel Grid.Row="3" Grid.Column="0" Margin="20 10">
+            <TextBlock Text="Nom d'affichage du défi"/>
+            <TextBox x:Name="ChallengeDisplayName" Background="Transparent" Margin="0 10 0 0"/>
+        </StackPanel>
 
-        <!--#region Texte description evenement-->
-        <TextBox x:Name="TexteDescription"
-                 BorderBrush="PaleGoldenrod"
-                 Width="400" 
-                 Height="150" 
-                 Background="Transparent"
-                 Foreground="white"
-                 FontSize="20"
-                 FontFamily="cambria"
-                 HorizontalAlignment="Center"
-                 VerticalAlignment="Top"
-                 Margin="0 250 0 0"/>
+        <StackPanel Grid.Row="4" Grid.Column="0" Margin="20 10">
+            <TextBlock Text="Description (facultatif)"/>
+            <TextBox x:Name="ChallengeDescription" BorderBrush="PaleGoldenrod" Background="Transparent" TextWrapping="Wrap" Margin="0 10 0 0" Height="60"/>
+        </StackPanel>
 
-        <Button
-            Name="ConfirmerChoix"
-            Width="150"
-            Height="40"
-            VerticalAlignment="Bottom"
-            Content="Confirmer"
-            Foreground="White"
-            FontFamily="cambria"
-            FontSize="25"
-            Background="Transparent"
-            Margin="0 0 0 0" 
-            />
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.RowSpan="5" Margin="20 10">
+            
+        </StackPanel>
+
+        <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding WarningMessage}" HorizontalAlignment="Center" Foreground="Orange"/>
+
+        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Margin="20" x:Name="boutonCreerDefi" Content="Créer le défi" Foreground="White" FontFamily="cambria" FontSize="30" Background="Transparent"/>
 
     </Grid>
 </UserControl>

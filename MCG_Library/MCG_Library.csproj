@@ -53,11 +53,13 @@
     <Compile Include="Enums.cs" />
     <Compile Include="GlobalConfig.cs" />
     <Compile Include="Models\AchievementModel.cs" />
+    <Compile Include="Models\DefiModel.cs" />
     <Compile Include="Models\DeveloperModel.cs" />
     <Compile Include="Models\GameModel.cs" />
     <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Models\RankModel.cs" />
     <Compile Include="Models\RoleModel.cs" />
+    <Compile Include="Models\ScoreModel.cs" />
     <Compile Include="Models\StatusModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
