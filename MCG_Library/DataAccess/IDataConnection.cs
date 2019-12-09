@@ -27,6 +27,8 @@ namespace MCG_Library.DataAccess
 
         void CreerUtilisateur(UserModel modele);
 
+        List<DefiModel> GetDefi_MesDefisApprouves(int userId);
+
         void UpdateConnexionUtilisateur(UserModel modele);
 
         void UpdateDeconnexionUtilisateur(UserModel modele);
@@ -50,6 +52,8 @@ namespace MCG_Library.DataAccess
         int GetGame_Count();
 
         int GetUser_OnlineCount();
+
+        List<DefiModel> GetDefi_AllApproved(int gameId);
 
         int GetGameId_ByGameAppId(GameModel modele);
 

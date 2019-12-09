@@ -9,14 +9,23 @@ namespace ApplicationGroupeEice.ViewModels
 {
     public class ListeDesDefisViewModel : Conductor<object>
     {
-        public ListeDesDefisViewModel()
+        private int _userId;
+
+        public int UserId
         {
-            ActivateItem(new TousLesDefisViewModel());
+            get { return _userId; }
+            set { _userId = value; NotifyOfPropertyChange(() => UserId); }
+        }
+
+        public ListeDesDefisViewModel(int userId)
+        {
+            UserId = userId;
+            ActivateItem(new TousLesDefisViewModel(userId));
         }
 
         public void MI_VoirTousDefis()
         {
-            ActivateItem(new TousLesDefisViewModel());
+            ActivateItem(new TousLesDefisViewModel(UserId));
         }
 
         public void MI_DefisDesAmis()
@@ -26,7 +35,7 @@ namespace ApplicationGroupeEice.ViewModels
 
         public void MI_VoirMesDefis()
         {
-            ActivateItem(new DefisParMoiViewModel());
+            ActivateItem(new DefisParMoiViewModel(UserId));
         }
     }
 }

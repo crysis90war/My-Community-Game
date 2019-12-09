@@ -30,7 +30,7 @@ namespace ApplicationGroupeEice.ViewModels
 
         public void boutonDefis()
         {
-            ActivateItem(new ListeDesDefisViewModel());
+            ActivateItem(new ListeDesDefisViewModel(UserId));
         }
 
         public void boutonClassement()

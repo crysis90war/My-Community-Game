@@ -20,3 +20,9 @@ C:\Users\Samad\Desktop\My Community Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_A
 C:\Users\Samad\Desktop\My Community Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.dll
 C:\Users\Samad\Desktop\My Community Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.pdb
 C:\Users\Samad\Desktop\My Community Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\bin\Debug\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\bin\Debug\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.csproj.CopyComplete
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Debug\MCG_Scraper_API.pdb

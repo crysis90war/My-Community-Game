@@ -82,5 +82,13 @@ namespace MCG_Library.Models
 			this.DefiCreator = defiCreator;
 			this.DefiScore = defiScore;
 		}
+
+		public string ScoreToString
+		{
+			get
+			{
+				return $"Score : { DefiScore }";
+			}
+		}
 	}
 }

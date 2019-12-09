@@ -72,7 +72,7 @@
             </ListBox>
         </ScrollViewer>
 
-        <Button x:Name="UpdateAchievement" Grid.Row="3" Grid.Column="1" Margin="150 10 0 10" Content="Marquer réussi"/>
+        <Button x:Name="UpdateDefi" Grid.Row="3" Grid.Column="1" Margin="150 10 0 10" Content="Marquer réussi"/>
 
         <TextBlock Text="WarningMessage" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
     </Grid>

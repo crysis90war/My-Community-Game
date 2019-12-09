@@ -20,14 +20,9 @@ namespace MCG_Library.Models
         private List<DeveloperModel> _gameDevelopers = new List<DeveloperModel>();
         private List<GenreModel> _gameGenres = new List<GenreModel>();
         private List<AchievementModel> _gameAchievements = new List<AchievementModel>();
+        private List<DefiModel> _gameDefis = new List<DefiModel>();
         private AchievementModel _gameAchievement;
-
-        public AchievementModel GameAchievement
-        {
-            get { return _gameAchievement; }
-            set { _gameAchievement = value; }
-        }
-
+        private DefiModel _gameDefi;
         #endregion
 
         #region Public Properties
@@ -95,6 +90,24 @@ namespace MCG_Library.Models
         {
             get { return _gameAchievements; }
             set { _gameAchievements = value; }
+        }
+
+        public List<DefiModel> GameDefis
+        {
+            get { return _gameDefis; }
+            set { _gameDefis = value; }
+        }
+
+        public AchievementModel GameAchievement
+        {
+            get { return _gameAchievement; }
+            set { _gameAchievement = value; }
+        }
+
+        public DefiModel DefiModel
+        {
+            get { return _gameDefi; }
+            set { _gameDefi = value; }
         }
         #endregion
 

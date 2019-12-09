@@ -95,6 +95,7 @@ namespace ApplicationGroupeEice.ViewModels
         {
 
             int etatLastMessage = 2;
+            
             Txxxt = "";
             UserId = userId;
             TargetId = targetId;
@@ -105,7 +106,7 @@ namespace ApplicationGroupeEice.ViewModels
             {
                 MyMessages.Add(private_msg);
 
-                if (private_msg.Ref_sender == UserId)
+                if (private_msg.Ref_sender == UserId) 
                 {
                     if (etatLastMessage != 0)
                     {

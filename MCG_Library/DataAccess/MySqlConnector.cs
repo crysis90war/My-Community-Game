@@ -439,6 +439,10 @@ namespace MCG_Library.DataAccess
                 output.GameAchievements = connection.Query<AchievementModel>("spGetAchievement_ByGame", p, commandType: CommandType.StoredProcedure).ToList();
 
                 p = new DynamicParameters();
+                p.Add("@in_ref_game", gameId);
+                output.GameDefis = connection.Query<DefiModel>("spGetDefi_AllApproved", p, commandType: CommandType.StoredProcedure).ToList();
+
+                p = new DynamicParameters();
                 p.Add("@in_ref_game", output.GameId);
                 output.GameGenres = connection.Query<GenreModel>("spGetGenre_ByGame", p, commandType: CommandType.StoredProcedure).ToList();
 
@@ -471,6 +475,14 @@ namespace MCG_Library.DataAccess
                     {
                         achievement.AchievementScore = achievement.AchievementScoreCalcule();
                     }
+                }
+
+                foreach (var game in output)
+                {
+                    p = new DynamicParameters();
+                    p.Add("@IN_ref_user", userId);
+                    p.Add("@IN_ref_game", game.GameId);
+                    game.GameDefis = connection.Query<DefiModel>("spGetUserDefi_ByUserNGame", p, commandType: CommandType.StoredProcedure).ToList();
                 }
 
                 foreach (var game in output)
@@ -800,6 +812,34 @@ namespace MCG_Library.DataAccess
             using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
             {
                 output = connection.Query<Private_MsgModel>("spGetPrivate_msg_refSender_refReceiver", p, commandType: CommandType.StoredProcedure).ToList();
+            }
+
+            return output;
+        }
+
+        public List<DefiModel> GetDefi_MesDefisApprouves(int userId)
+        {
+            List<DefiModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_user", userId);
+                output = connection.Query<DefiModel>("spGetDefi_MesDefisApprouves", p, commandType: CommandType.StoredProcedure).ToList();
+            }
+
+            return output;
+        }
+
+        public List<DefiModel> GetDefi_AllApproved(int gameId)
+        {
+            List<DefiModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                var p = new DynamicParameters();
+                p.Add("@in_ref_game", gameId);
+                output = connection.Query<DefiModel>("spGetDefi_AllApproved", p, commandType: CommandType.StoredProcedure).ToList();
             }
 
             return output;
