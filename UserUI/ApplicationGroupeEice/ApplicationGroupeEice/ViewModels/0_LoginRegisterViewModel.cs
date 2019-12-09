@@ -177,9 +177,17 @@ namespace ApplicationGroupeEice.ViewModels
 
                 if (userConnection.UserExists == 1)
                 {
-                    GlobalConfig.Connection.UpdateConnexionUtilisateur(userConnection);
-                    manager.ShowWindow(new MainWindowViewModel(userConnection.UserId));
-                    this.TryClose();
+
+                    if (userConnection.UserIsBanned != 1)
+                    {
+                        GlobalConfig.Connection.UpdateConnexionUtilisateur(userConnection);
+                        manager.ShowWindow(new MainWindowViewModel(userConnection.UserId));
+                        this.TryClose(); 
+                    }
+                    else
+                    {
+                        ErrorMessage = "Vous êtes bannis de la communité !";
+                    }
                 }
 
                 else
