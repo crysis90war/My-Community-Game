@@ -198,3 +198,6 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicatio
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.csproj.CopyComplete
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.exe
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\AdministrateurApplicationEice.pdb
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\5_DefiView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Views\5_DefiView.baml
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\Fonts\FontFamily.baml

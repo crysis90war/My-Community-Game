@@ -24,17 +24,51 @@
         </Grid.ColumnDefinitions>
 
         <!--#region  GRID ROW 1 -->
-        <TextBlock Grid.Row="1" Grid.Column="1" Text="Nouveaux défis" FontSize="25" HorizontalAlignment="Center" Foreground="White"/>
-        <TextBlock Grid.Row="1" Grid.Column="3" Text="Défis approuvés" FontSize="25" HorizontalAlignment="Center" Foreground="White"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Nouveaux defis" FontSize="25" HorizontalAlignment="Center" Foreground="White" FontFamily="{StaticResource 28DaysLater}"/>
+        <TextBlock Grid.Row="1" Grid.Column="3" Text="Defis approuves" FontSize="25" HorizontalAlignment="Center" Foreground="White" FontFamily="{StaticResource 28DaysLater}"/>
         <!--#endregion-->
 
         <!--#region GRID ROW 2 -->
         <ScrollViewer Grid.Row="2" Grid.Column="1" Margin="5">
-            
+            <ListView Background="Transparent" x:Name="CommunityDefis">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Created date : " FontFamily="cambria" Foreground="White" FontSize="16"/>
+                                <TextBlock Text="{Binding DefiCreatedDate}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding DefiName}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                                <TextBlock Text=" - " FontFamily="cambria" Foreground="White" FontSize="16"/>
+                                <TextBlock Text="{Binding DefiDisplayName}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                            </StackPanel>
+                            <TextBlock Text="{Binding DefiDescription}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </ScrollViewer>
 
         <ScrollViewer Grid.Row="2" Grid.Column="3" Margin="5">
-
+            <ListView Background="Transparent" x:Name="CommunityApprovedDefi">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Created date : " FontFamily="cambria" Foreground="White" FontSize="16"/>
+                                <TextBlock Text="{Binding DefiCreatedDate}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding DefiName}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                                <TextBlock Text=" - " FontFamily="cambria" Foreground="White" FontSize="16"/>
+                                <TextBlock Text="{Binding DefiDisplayName}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                            </StackPanel>
+                            <TextBlock Text="{Binding DefiDescription}" FontFamily="cambria" Foreground="White" FontSize="16"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </ScrollViewer>
         <!--#endregion-->
 

@@ -60,5 +60,5 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicatio
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\AdministrateurApplicationEice.csproj.CopyComplete
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\AdministrateurApplicationEice.exe
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\AdministrateurApplicationEice.pdb
-C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\Views\DefiView.g.cs
-C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\Views\DefiView.baml
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\Views\5_DefiView.g.cs
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Release\Views\5_DefiView.baml

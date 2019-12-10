@@ -908,5 +908,29 @@ namespace MCG_Library.DataAccess
             }
             return output;
         }
+
+        public List<DefiModel> GetDefi_NotApproved()
+        {
+            List<DefiModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                output = connection.Query<DefiModel>("spGetDefi_NotApproved").ToList();
+            }
+
+            return output;
+        }
+
+        public List<DefiModel> GetDefi_ApprovedAll()
+        {
+            List<DefiModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                output = connection.Query<DefiModel>("spGetDefi_ApprovedAll").ToList();
+            }
+
+            return output;
+        }
     }
 }

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AdministrateurApplicationEice.Fonts">
+
+    <FontFamily x:Key="28DaysLater">pack://application:,,,/Fonts/#28 Days Later</FontFamily>
+    <FontFamily x:Key="Chopsic">pack://application:,,,/Fonts/#Chopsic</FontFamily>
+    <FontFamily x:Key="Montague">pack://application:,,,/Fonts/#Montague</FontFamily>
+</ResourceDictionary>

@@ -40,7 +40,7 @@ namespace MCG_Library.DataAccess
         void UpdateUser_Rank(int userId);
 
         void UpdateFriendship_State(int sourceUserId, int targetUserId);
-
+        List<DefiModel> GetDefi_NotApproved();
         void UpdateUser_Ban(int userId);
 
         void UpdateUser_Unban(int userId);
@@ -62,7 +62,7 @@ namespace MCG_Library.DataAccess
         int GetGameId_ByGameAppId(GameModel modele);
 
         int GetGenreId_ByName(GenreModel modele);
-
+        List<DefiModel> GetDefi_ApprovedAll();
         int GetDeveloperId_ByName(DeveloperModel modele);
 
         List<GameModel> GetUserGames(int userId);

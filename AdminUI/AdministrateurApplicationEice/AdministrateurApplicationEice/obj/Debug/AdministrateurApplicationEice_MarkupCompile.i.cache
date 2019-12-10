@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\obj\Debug\
 AdministrateurApplicationEice
 none
 false
 DEBUG;TRACE
-C:\Users\Samad\Desktop\My Community Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\App.xaml
-16-953962511
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\AdminUI\AdministrateurApplicationEice\AdministrateurApplicationEice\App.xaml
+18296072098
 
-26-2014675455
-123-1658258840
-Garbage\Connexion.xaml;Garbage\Evenement.xaml;Garbage\ImageAccueil.xaml;Garbage\JeuxDeSociétés.xaml;Garbage\JeuxVidéos.xaml;Garbage\MainWindow.xaml;Styles\Button.xaml;Garbage\Utilisateurs.xaml;Styles\ListView.xaml;Styles\ScrollViewer.xaml;Views\0_LoginView.xaml;Views\0_MainWindowView.xaml;Views\1_UtilisateursView.xaml;Views\2_EventView.xaml;Views\3_VideoGameView.xaml;Views\4_BoardGameView.xaml;
+28-908903092
+123-1534573085
+Fonts\FontFamily.xaml;Garbage\Connexion.xaml;Garbage\Evenement.xaml;Garbage\ImageAccueil.xaml;Garbage\JeuxDeSociétés.xaml;Garbage\JeuxVidéos.xaml;Garbage\MainWindow.xaml;Styles\Button.xaml;Garbage\Utilisateurs.xaml;Styles\ListView.xaml;Styles\ScrollViewer.xaml;Views\0_LoginView.xaml;Views\0_MainWindowView.xaml;Views\1_UtilisateursView.xaml;Views\2_EventView.xaml;Views\3_VideoGameView.xaml;Views\4_BoardGameView.xaml;Views\5_DefiView.xaml;
 
 True
 

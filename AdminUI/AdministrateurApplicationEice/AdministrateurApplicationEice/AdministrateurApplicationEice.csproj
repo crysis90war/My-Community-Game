@@ -91,7 +91,7 @@
     <Compile Include="ViewModels\2_EventViewModel.cs" />
     <Compile Include="ViewModels\3_VideoGameViewModel.cs" />
     <Compile Include="ViewModels\4_BoardGameViewModel.cs" />
-    <Compile Include="ViewModels\DefiViewModel.cs" />
+    <Compile Include="ViewModels\5_DefiViewModel.cs" />
     <Compile Include="Views\0_LoginView.xaml.cs">
       <DependentUpon>0_LoginView.xaml</DependentUpon>
     </Compile>
@@ -110,9 +110,13 @@
     <Compile Include="Views\4_BoardGameView.xaml.cs">
       <DependentUpon>4_BoardGameView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DefiView.xaml.cs">
-      <DependentUpon>DefiView.xaml</DependentUpon>
+    <Compile Include="Views\5_DefiView.xaml.cs">
+      <DependentUpon>5_DefiView.xaml</DependentUpon>
     </Compile>
+    <Page Include="Fonts\FontFamily.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Garbage\Connexion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -188,7 +192,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DefiView.xaml">
+    <Page Include="Views\5_DefiView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -211,6 +215,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\28 Days Later.ttf" />
+    <Resource Include="Fonts\Chopsic.otf" />
+    <Resource Include="Fonts\Montague.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
