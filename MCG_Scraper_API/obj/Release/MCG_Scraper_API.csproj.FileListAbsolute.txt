@@ -12,3 +12,8 @@ C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scrape
 C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.csproj.CopyComplete
 C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.dll
 C:\Users\Samad\Desktop\My Community Game\UserUI\ApplicationGroupeEice\MCG_Scraper_API\obj\Release\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\bin\Release\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\bin\Release\MCG_Scraper_API.pdb
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Release\MCG_Scraper_API.csproj.CopyComplete
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Release\MCG_Scraper_API.dll
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Scraper_API\obj\Release\MCG_Scraper_API.pdb

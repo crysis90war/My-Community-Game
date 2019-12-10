@@ -36,6 +36,21 @@
             <Button Name="Deconnexion" Content="Déconnexion" Style="{StaticResource mainBouton}"/>
         </StackPanel>
 
+        <StackPanel Opacity="0.9" Background="#FF94B7BF" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <StackPanel Margin="230 0 0 5" Orientation="Horizontal">
+                <TextBlock Text="Nombre total d'utilisateurs de l'application : " FontFamily="cambria" FontWeight="Bold" Foreground="white" Width="300"/>
+                <TextBlock Text="{Binding Path=NombreUtilisateurs}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
+            </StackPanel>
+            <StackPanel Margin="230 0 0 0" Orientation="Horizontal">
+                <TextBlock Text="Nombre total d'utilisateurs connectés : " FontFamily="cambria" FontWeight="Bold" Foreground="white" Width="300"/>
+                <TextBlock Text="{Binding Path=NombreUtilisateursEnLigne}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
+            </StackPanel>
+            <StackPanel Margin="230 5 0 0" Orientation="Horizontal">
+                <TextBlock Text="Nombre total de jeux vidéos : " FontFamily="cambria" FontWeight="Bold"  Foreground="white" Width="300"/>
+                <TextBlock Text="{Binding Path=NombreJeux}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
+            </StackPanel>
+        </StackPanel>
+
         <StackPanel Grid.Row="2" Grid.Column="0">
             <Menu HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Height="605" Background="#FF1E4753">
                 <Menu.Resources >
@@ -71,34 +86,43 @@
                         <TextBlock Text="Utilisateurs"/>
                     </MenuItem.Header>
                     <MenuItem.Icon>
-                        <Image Source="/AdministrateurApplicationEice;component/Image/IconUtilisateur.png" Stretch="Fill" />
+                        <Image Source="/AdministrateurApplicationEice;component/Image/IconUtilisateur.png" Stretch="Fill" Width="15"/>
                     </MenuItem.Icon>
                 </MenuItem>
-                
+
                 <MenuItem x:Name="MI_Events" Style="{StaticResource MenuItemStyle}">
                     <MenuItem.Header >
                         <TextBlock Text="Événements"/>
                     </MenuItem.Header>
                     <MenuItem.Icon>
-                        <Image Source="/AdministrateurApplicationEice;component/Image/IconEvents.png" Stretch="Fill" />
+                        <Image Source="/AdministrateurApplicationEice;component/Image/IconEvents.png" Stretch="Fill" Width="15"/>
                     </MenuItem.Icon>
                 </MenuItem>
-                
+
                 <MenuItem x:Name="MI_VideoGame" Style="{StaticResource MenuItemStyle}">
                     <MenuItem.Header >
                         <TextBlock Text="Jeux vidéos"/>
                     </MenuItem.Header>
                     <MenuItem.Icon>
-                        <Image Source="/AdministrateurApplicationEice;component/Image/IconJeu.png" Stretch="Fill"/>
+                        <Image Source="/AdministrateurApplicationEice;component/Image/IconJeu.png" Stretch="Fill" Width="15"/>
                     </MenuItem.Icon>
                 </MenuItem>
-                
+
                 <MenuItem x:Name="MI_BoardGame" Style="{StaticResource MenuItemStyle}">
                     <MenuItem.Header >
                         <TextBlock TextWrapping="Wrap" Text="Jeux de sociétés"/>
                     </MenuItem.Header>
                     <MenuItem.Icon>
-                        <Image Source="/AdministrateurApplicationEice;component/Image/IconJeuDeSociétés.png" Stretch="Fill"/>
+                        <Image Source="/AdministrateurApplicationEice;component/Image/IconJeuDeSociétés.png" Stretch="Fill" Width="15"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <MenuItem x:Name="MI_Defis" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem.Header >
+                        <TextBlock TextWrapping="Wrap" Text="Défis"/>
+                    </MenuItem.Header>
+                    <MenuItem.Icon>
+                        <Image Source="/AdministrateurApplicationEice;component/Image/LogoDéfis.png" Stretch="Fill" Width="15"/>
                     </MenuItem.Icon>
                 </MenuItem>
 
@@ -108,21 +132,6 @@
                     </ItemsPanelTemplate>
                 </Menu.ItemsPanel>
             </Menu>
-        </StackPanel>
-
-        <StackPanel Opacity="0.9" Background="#FF94B7BF" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
-            <StackPanel Margin="230 0 0 5" Orientation="Horizontal">
-                <TextBlock Text="Nombre total d'utilisateurs de l'application : " FontFamily="cambria" FontWeight="Bold" Foreground="white" Width="300"/>
-                <TextBlock Text="{Binding Path=NombreUtilisateurs}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
-            </StackPanel>
-            <StackPanel Margin="230 0 0 0" Orientation="Horizontal">
-                <TextBlock Text="Nombre total d'utilisateurs connectés : " FontFamily="cambria" FontWeight="Bold" Foreground="white" Width="300"/>
-                <TextBlock Text="{Binding Path=NombreUtilisateursEnLigne}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
-            </StackPanel>
-            <StackPanel Margin="230 5 0 0" Orientation="Horizontal">
-                <TextBlock Text="Nombre total de jeux vidéos : " FontFamily="cambria" FontWeight="Bold"  Foreground="white" Width="300"/>
-                <TextBlock Text="{Binding Path=NombreJeux}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
-            </StackPanel>
         </StackPanel>
 
         <ContentControl Name="ActiveItem" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>

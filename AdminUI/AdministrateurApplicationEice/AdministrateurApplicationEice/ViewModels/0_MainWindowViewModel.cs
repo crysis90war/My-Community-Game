@@ -83,6 +83,11 @@ namespace AdministrateurApplicationEice.ViewModels
             ActivateItem(new BoardGameViewModel());
         }
 
+        public void MI_Defis()
+        {
+            ActivateItem(new DefiViewModel(UserId));
+        }
+
         public void Deconnexion()
         {
             LoginViewModel A = new LoginViewModel();

@@ -38,7 +38,7 @@ namespace MCG_Library
             int _port = 3307;
             int _portWamp = 3306;
 
-            return $"SERVER={_serverAddressPublic};DATABASE={_databaseName};UID={_username};PASSWORD={_password};PORT={_port};";
+            return $"SERVER={_serverAddressPrivate};DATABASE={_databaseName};UID={_username};PASSWORD={_password};PORT={_port};";
         }
     }
 }
