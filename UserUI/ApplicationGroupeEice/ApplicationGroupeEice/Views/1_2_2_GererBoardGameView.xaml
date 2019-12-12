@@ -39,7 +39,7 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <DockPanel>
-                            <Image DockPanel.Dock="Left" Source="{Binding Path=GameImageUrl}" Height="40" VerticalAlignment="Center" Margin="5"/>
+                            <Image DockPanel.Dock="Left" Source="{Binding Path=ImageUrl}" Height="40" VerticalAlignment="Center" Margin="5"/>
                             <StackPanel DockPanel.Dock="Right" Margin="5" >
                                 <TextBlock TextWrapping="Wrap" Text="{Binding Path=GameName}"/>
                                 <TextBlock Text="{Binding Path=DefisCount}"/>
@@ -60,7 +60,7 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <DockPanel>
-                            <Image DockPanel.Dock="Left" Source="{Binding Path=GameImageUrl}" Height="40" VerticalAlignment="Center" Margin="5"/>
+                            <Image DockPanel.Dock="Left" Source="{Binding Path=ImageUrl}" Height="40" VerticalAlignment="Center" Margin="5"/>
                             <StackPanel DockPanel.Dock="Right" Margin="5" >
                                 <TextBlock TextWrapping="Wrap" Text="{Binding Path=GameName}"/>
                                 <TextBlock Text="{Binding Path=AchievementsCount}"/>

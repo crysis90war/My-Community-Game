@@ -78,24 +78,9 @@ namespace ApplicationGroupeEice.ViewModels
         #region Constructors
         public GererJeuxViewModel(int userId)
         {
-            List<GameModel> userGames = GlobalConfig.Connection.GetUserGames(userId);
-            List<GameModel> communityGames = GlobalConfig.Connection.GetGame_UserNotPossessed(userId);
             UserId = userId;
 
-            foreach (var game in userGames)
-            {
-                communityGames.RemoveAll(communityGame => communityGame.GameId.Equals(game.GameId));
-            }
-
-            foreach (var uGame in userGames)
-            {
-                UserGames.Add(uGame);
-            }
-
-            foreach (var CGame in communityGames)
-            {
-                CommunityGames.Add(CGame);
-            }
+            Initialize();
         }
         #endregion
 
@@ -140,6 +125,27 @@ namespace ApplicationGroupeEice.ViewModels
         public void SupprimerJeu()
         {
 
+        }
+
+        private async Task Initialize()
+        {
+            List<GameModel> userGames = await Task.Run(() => GlobalConfig.Connection.GetUserGames(UserId));
+            List<GameModel> communityGames = await Task.Run(() => GlobalConfig.Connection.GetGame_UserNotPossessed(UserId));
+
+            foreach (var game in userGames)
+            {
+                communityGames.RemoveAll(communityGame => communityGame.GameId.Equals(game.GameId));
+            }
+
+            foreach (var uGame in userGames)
+            {
+                UserGames.Add(uGame);
+            }
+
+            foreach (var CGame in communityGames)
+            {
+                CommunityGames.Add(CGame);
+            }
         }
         #endregion
     }

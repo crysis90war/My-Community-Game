@@ -78,24 +78,49 @@ namespace ApplicationGroupeEice.ViewModels
         #region Constructor
         public GererBoardGameViewModel(int userId)
         {
-            List<GameModel> userGames = GlobalConfig.Connection.GetUserBoardGames(userId);
-            List<GameModel> communityGames = GlobalConfig.Connection.GetBoardGame_UserNotPossessed(userId);
             UserId = userId;
+            _ = Initialize();
+        }
+        #endregion
 
-            foreach (var game in userGames)
+        #region Others
+        public async Task Initialize()
+        {
+            List<GameModel> userGames = await Task.Run(() => GlobalConfig.Connection.GetUserBoardGames(UserId));
+            List<GameModel> communityGames = await Task.Run(() => GlobalConfig.Connection.GetBoardGame_UserNotPossessed(UserId));
+
+            UserGames = await Test(userGames);
+            CommunityGames = await Test(communityGames);
+
+            //foreach (var game in userGames)
+            //{
+            //    communityGames.RemoveAll(communityGame => communityGame.GameId.Equals(game.GameId));
+            //}
+
+            //foreach (var uGame in userGames)
+            //{
+            //    UserGames.Add(uGame);
+            //}
+
+            //foreach (var CGame in communityGames)
+            //{
+            //    CommunityGames.Add(CGame);
+            //}
+        }
+
+        private async Task<BindableCollection<GameModel>> Test(List<GameModel> games)
+        {
+            BindableCollection<GameModel> output = new BindableCollection<GameModel>();
+
+            foreach (var uGame in games)
             {
-                communityGames.RemoveAll(communityGame => communityGame.GameId.Equals(game.GameId));
+                await App.Current.Dispatcher.InvokeAsync(() =>
+                {
+                    output.Add(uGame);
+                }, System.Windows.Threading.DispatcherPriority.ContextIdle);
             }
 
-            foreach (var uGame in userGames)
-            {
-                UserGames.Add(uGame);
-            }
-
-            foreach (var CGame in communityGames)
-            {
-                CommunityGames.Add(CGame);
-            }
+            return output;
         }
         #endregion
     }

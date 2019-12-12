@@ -39,15 +39,15 @@
         <StackPanel Opacity="0.9" Background="#FF94B7BF" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
             <StackPanel Margin="230 0 0 5" Orientation="Horizontal">
                 <TextBlock Text="Nombre total d'utilisateurs de l'application : " FontFamily="cambria" FontWeight="Bold" Foreground="white" Width="300"/>
-                <TextBlock Text="{Binding Path=NombreUtilisateurs}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
+                <TextBlock Text="{Binding Path=NumberOfUsers}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
             </StackPanel>
             <StackPanel Margin="230 0 0 0" Orientation="Horizontal">
                 <TextBlock Text="Nombre total d'utilisateurs connectés : " FontFamily="cambria" FontWeight="Bold" Foreground="white" Width="300"/>
-                <TextBlock Text="{Binding Path=NombreUtilisateursEnLigne}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
+                <TextBlock Text="{Binding Path=NumberOfUsersOnline}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
             </StackPanel>
             <StackPanel Margin="230 5 0 0" Orientation="Horizontal">
                 <TextBlock Text="Nombre total de jeux vidéos : " FontFamily="cambria" FontWeight="Bold"  Foreground="white" Width="300"/>
-                <TextBlock Text="{Binding Path=NombreJeux}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
+                <TextBlock Text="{Binding Path=NumberOfGames}" FontFamily="cambria" FontWeight="Bold" Foreground="white" />
             </StackPanel>
         </StackPanel>
 

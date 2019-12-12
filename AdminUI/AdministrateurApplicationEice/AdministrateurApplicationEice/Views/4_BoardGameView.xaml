@@ -4,9 +4,72 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:AdministrateurApplicationEice.Views"
-             mc:Ignorable="d" 
+             mc:Ignorable="d" Foreground="White" FontSize="16" FontFamily="calibria"
              d:DesignHeight="605" d:DesignWidth="1002">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Text="Ajouter ou supprimer un jeu de societe" FontFamily="{StaticResource 28DaysLater}" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+        
+        <StackPanel Grid.Row="2" Grid.Column="1" Margin="10">
+            <TextBlock Text="Nouveau jeu de societe" FontFamily="{StaticResource 28DaysLater}" Foreground="White" FontSize="18" HorizontalAlignment="Center"/>
+
+            <Border Padding="20" Margin="0 10" CornerRadius="10" BorderThickness="2" BorderBrush="#FF1E4753">
+                <StackPanel>
+                    <TextBlock Text="Nom du jeu de societe" FontFamily="{StaticResource Montague}" Margin="0 5"/>
+                    <TextBox x:Name="GameName" Margin="0 5"/>
+                    <TextBlock Text="Description du jeu" FontFamily="{StaticResource Montague}" Margin="0 5"/>
+                    <TextBox x:Name="GameDescription" Height="150" TextWrapping="Wrap" Margin="0 5"/>
+                    <TextBlock Text="Image du jeu (url) (Facultatif)" FontFamily="{StaticResource Montague}" Margin="0 5"/>
+                    <TextBox x:Name="GameImageUrl" Margin="0 5"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <DockPanel Grid.Row="2" Grid.Column="2" Margin="10">
+            <TextBlock DockPanel.Dock="Top" Text="Nos jeux de societe" FontFamily="{StaticResource 28DaysLater}" Foreground="White" FontSize="18" HorizontalAlignment="Center"/>
+            <ScrollViewer DockPanel.Dock="Bottom" Margin="0 10">
+                <ListView x:Name="CommunityBoardGames">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <DockPanel>
+                                <Image DockPanel.Dock="Left" Source="{Binding Path=ImageUrl}" Height="40" VerticalAlignment="Center" Margin="5"/>
+                                <StackPanel DockPanel.Dock="Right" Margin="5" >
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=GameName}"/>
+                                    <TextBlock Text="{Binding Path=DefisCount}"/>
+                                </StackPanel>
+                            </DockPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollViewer>
+        </DockPanel>
+
+        <Button Grid.Row="3" Grid.Column="1" x:Name="Ajouter" Margin="5" Style="{StaticResource boutonGlobal}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/AdministrateurApplicationEice;component/Image/checked.png" Stretch="Fill" Height="30" Width="30" Margin="0 0 10 0"/>
+                <TextBlock Text="Ajouter" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+
+        <Button Grid.Row="3" Grid.Column="2" x:Name="Supprimer" Margin="5" Style="{StaticResource boutonGlobal}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/AdministrateurApplicationEice;component/Image/remove.png" Stretch="Fill" Height="30" Width="30" Margin="0 0 10 0"/>
+                <TextBlock Text="Supprimer" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
     </Grid>
 </UserControl>

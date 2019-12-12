@@ -932,5 +932,17 @@ namespace MCG_Library.DataAccess
 
             return output;
         }
+
+        public List<GameModel> GetBoardGamesAll()
+        {
+            List<GameModel> output;
+
+            using (MySqlConnection connection = new MySqlConnection(GlobalConfig.CnnString()))
+            {
+                output = connection.Query<GameModel>("spGetBoardGames_All").ToList();
+            }
+
+            return output;
+        }
     }
 }

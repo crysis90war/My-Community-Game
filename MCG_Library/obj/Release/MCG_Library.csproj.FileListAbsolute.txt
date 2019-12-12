@@ -38,4 +38,3 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\bin\Release\MySql.Da
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Release\MCG_Library.csproj.CopyComplete
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Release\MCG_Library.dll
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Release\MCG_Library.pdb
-C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Release\MCG_Library.csprojAssemblyReference.cache

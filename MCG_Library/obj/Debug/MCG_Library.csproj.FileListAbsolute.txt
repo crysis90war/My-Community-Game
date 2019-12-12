@@ -65,3 +65,4 @@ C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Librar
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.dll
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.pdb
 C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.csprojAssemblyReference.cache
+C:\Users\Samad\Desktop\GitHub\My-Community-Game\MCG_Library\obj\Debug\MCG_Library.g.resources

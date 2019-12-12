@@ -186,6 +186,21 @@ namespace MCG_Library.Models
                 return $"{ GameAchievements.Where(x => x.AchievementAchieved == 1).Count() } Achieved";
             }
         }
+
+        public string ImageUrl
+        {
+            get
+            {
+                if (GameImageUrl.Length == 0)
+                {
+                    return $"https://fr.zenit.org/wp-content/uploads/2018/05/no-image-icon.png";
+                }
+                else
+                {
+                    return $"{ GameImageUrl }";
+                }
+            }
+        }
         #endregion
     }
 }

@@ -66,19 +66,43 @@ namespace AdministrateurApplicationEice.ViewModels
         public VideoGameViewModel()
         {
             ApiHelper.InitializeClient();
-            List<GameModel> communityGames = new List<GameModel>();
-            communityGames = GlobalConfig.Connection.GetGame_All();
 
-            foreach (var communityGame in communityGames)
-            {
-                CommunityGames.Add(communityGame);
-            }
+            _ = Initialize();
 
             //var a = await AppIdProcessor.LoadAppId();
         }
         #endregion
 
         #region Others
+        private async Task Initialize()
+        {
+            List<GameModel> communityGames = new List<GameModel>();
+
+            WarningMessage = "Loading. Please wait!";
+            communityGames = await Task.Run(() => GlobalConfig.Connection.GetGame_All());
+            CommunityGames = await Test(communityGames);
+            if (communityGames != null)
+            {
+                WarningMessage = "Chargement effectué";
+            }
+
+        }
+
+        private async Task<BindableCollection<GameModel>> Test(List<GameModel> games)
+        {
+            BindableCollection<GameModel> output = new BindableCollection<GameModel>();
+
+            foreach (var uGame in games)
+            {
+                await App.Current.Dispatcher.InvokeAsync(() =>
+                {
+                    output.Add(uGame);
+                }, System.Windows.Threading.DispatcherPriority.ContextIdle);
+            }
+
+            return output;
+        }
+
         public async void Search()
         {
             string recherche = SearchBox;
@@ -121,15 +145,13 @@ namespace AdministrateurApplicationEice.ViewModels
 
                     if (game != null)
                     {
+                        WarningMessage = "Création du jeu. Veuillez attendre.";
                         GlobalConfig.Connection.CreerJeu(game);
-
+                        WarningMessage = "Création effectué avec succès!";
                         List<GameModel> communityGames = new List<GameModel>();
-                        communityGames = GlobalConfig.Connection.GetGame_All();
+                        communityGames = await Task.Run(() => GlobalConfig.Connection.GetGame_All());
 
-                        foreach (var communityGame in communityGames)
-                        {
-                            CommunityGames.Add(communityGame);
-                        }
+                        CommunityGames = await Test(communityGames);
                     }
                     else
                     {

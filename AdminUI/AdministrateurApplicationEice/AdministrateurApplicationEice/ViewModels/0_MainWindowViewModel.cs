@@ -54,11 +54,8 @@ namespace AdministrateurApplicationEice.ViewModels
         public MainWindowViewModel(int userId)
         {
             UserId = userId;
-            userData = GlobalConfig.Connection.GetUser_Info(userId);
             ActivateItem(new UtilisateursViewModel(UserId));
-            NumberOfUsers = GlobalConfig.Connection.GetUser_Count();
-            NumberOfUsersOnline = GlobalConfig.Connection.GetUser_OnlineCount();
-            NumberOfGames = GlobalConfig.Connection.GetGame_Count();
+            _ = Initialize();
         }
         #endregion
 
@@ -80,7 +77,7 @@ namespace AdministrateurApplicationEice.ViewModels
 
         public void MI_BoardGame()
         {
-            ActivateItem(new BoardGameViewModel());
+            ActivateItem(new BoardGameViewModel(UserId));
         }
 
         public void MI_Defis()
@@ -103,29 +100,13 @@ namespace AdministrateurApplicationEice.ViewModels
             this.TryClose();
         }
 
-
-        public string NombreUtilisateurs
+        public async Task Initialize()
         {
-            get
-            {
-                return $"{ NumberOfUsers }";
-            }
-        }
+            userData = await Task.Run(()=> GlobalConfig.Connection.GetUser_Info(UserId));
 
-        public string NombreUtilisateursEnLigne
-        {
-            get
-            {
-                return $"{ NumberOfUsersOnline }";
-            }
-        }
-
-        public string NombreJeux
-        {
-            get
-            {
-                return $"{ NumberOfGames }";
-            }
+            NumberOfUsers = await Task.Run(() => GlobalConfig.Connection.GetUser_Count());
+            NumberOfUsersOnline = await Task.Run(() => GlobalConfig.Connection.GetUser_OnlineCount());
+            NumberOfGames = await Task.Run(() => GlobalConfig.Connection.GetGame_Count());
         }
         #endregion
     }

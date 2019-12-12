@@ -32,7 +32,7 @@ namespace MCG_Library.DataAccess
         void UpdateConnexionUtilisateur(UserModel modele);
 
         void UpdateDeconnexionUtilisateur(UserModel modele);
-
+        List<GameModel> GetBoardGamesAll();
         void UpdateUserAchievement(int userId, int userAchievementId);
 
         void UpdateUser_Score(int userId, int newScore);
